@@ -17,8 +17,11 @@ For browser-based javsacript environments; reports session replay and monitoring
 For node.js environments; reports backend errrors, while matching them to frontend requests. 
 - NPM Package: [@highlight-run/node](https://www.npmjs.com/package/@highlight-run/node)
 - Setup Docs: https://www.highlight.io/docs/sdk/nodejs
+- SDK Reference Docs: https://www.highlight.io/docs/sdk/nodejs
 
 #### Next.js Library (`@highlight-run/next`)
 For Next.js full stack environments; reports backend errrors, while matching them to frontend requests. 
 - NPM Package: [@highlight-run/next](https://www.npmjs.com/package/@highlight-run/next)
 - Setup Docs: https://www.highlight.io/docs/sdk/nextjs
+- SDK Reference Docs: https://www.highlight.io/docs/sdk/nextjs
+
