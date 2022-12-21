@@ -52,3 +52,14 @@ export function errorHandler(
 }
 
 // this code was assisted by https://github.com/getsentry/sentry-javascript/blob/master/packages/node/src/handlers.ts
+
+/**
+ * A TRPC compatible error handler for logging errors to Highlight.
+ */
+export async function trpcOnError({ error, req }: {error: Error, req: {headers?: http.IncomingHttpHeaders}}): Promise<void> {
+	if (req.headers && req.headers[HIGHLIGHT_REQUEST_HEADER]) {
+		const [secureSessionId, requestId] = `${req.headers[HIGHLIGHT_REQUEST_HEADER]}`.split('/');
+		H.consumeError(error, secureSessionId, requestId);
+		await H.flush()
+	}
+}
