@@ -32,7 +32,7 @@ export const H: HighlightInterface = {
 		try {
 			highlight_obj = new Highlight(options)
 		} catch (e) {
-			console.log('highlight-node init error: ', e)
+			console.warn('highlight-node init error: ', e)
 		}
 	},
 	isInitialized: () => !!highlight_obj,
@@ -44,14 +44,14 @@ export const H: HighlightInterface = {
 		try {
 			highlight_obj.consumeCustomError(error, secureSessionId, requestId)
 		} catch (e) {
-			console.log('highlight-node consumeError error: ', e)
+			console.warn('highlight-node consumeError error: ', e)
 		}
 	},
 	consumeEvent: (secureSessionId: string) => {
 		try {
 			highlight_obj.consumeCustomEvent(secureSessionId)
 		} catch (e) {
-			console.log('highlight-node consumeEvent error: ', e)
+			console.warn('highlight-node consumeEvent error: ', e)
 		}
 	},
 	recordMetric: (
@@ -70,14 +70,14 @@ export const H: HighlightInterface = {
 				tags,
 			)
 		} catch (e) {
-			console.log('highlight-node recordMetric error: ', e)
+			console.warn('highlight-node recordMetric error: ', e)
 		}
 	},
 	flush: async () => {
 		try {
 			await highlight_obj.flush()
 		} catch (e) {
-			console.log('highlight-node flush error: ', e)
+			console.warn('highlight-node flush error: ', e)
 		}
 	},
 	parseHeaders: (
@@ -92,7 +92,7 @@ export const H: HighlightInterface = {
 				}
 			}
 		} catch (e) {
-			console.log('highlight-node parseHeaders error: ', e)
+			console.warn('highlight-node parseHeaders error: ', e)
 		}
 		return undefined
 	},
