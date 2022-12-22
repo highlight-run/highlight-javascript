@@ -27,5 +27,5 @@ build
 **/.idea
 .vscode/*.log
 
-*.tsbuildinfo
+**/tsconfig.tsbuildinfo
 **/.turbo
