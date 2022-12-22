@@ -1376,12 +1376,12 @@
         "signature": "06b4e032b397f9bad48024b5f942595d2b8c398ab462fd0ba961c5203efb8a55",
         "affectsGlobalScope": false
       },
-      "../../node_modules/vitest/node_modules/esbuild/lib/main.d.ts": {
+      "../../node_modules/vite/node_modules/esbuild/lib/main.d.ts": {
         "version": "3a3793e1d2d4af2e002b3c4a086cc8d7458c19ce3c34f72640652c76ca4f34d9",
         "signature": "3a3793e1d2d4af2e002b3c4a086cc8d7458c19ce3c34f72640652c76ca4f34d9",
         "affectsGlobalScope": false
       },
-      "../../node_modules/vitest/node_modules/rollup/dist/rollup.d.ts": {
+      "../../node_modules/vite/node_modules/rollup/dist/rollup.d.ts": {
         "version": "aa1ed14f1785b6896ffa26b1158047b4774ee51a3edb68ecc1a045494d82ef7e",
         "signature": "aa1ed14f1785b6896ffa26b1158047b4774ee51a3edb68ecc1a045494d82ef7e",
         "affectsGlobalScope": false
@@ -1481,22 +1481,22 @@
         "signature": "68161b6f3004fc10f8bb47a4986cef13c3b0728fb1ca3e1dc7316227d09b2c8d",
         "affectsGlobalScope": false
       },
-      "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts": {
+      "../../node_modules/vite/dist/node/index.d.ts": {
         "version": "321b6c915c26d1e85bc1a4f63981e7e156990d6948c8fd8cf9789f0464c99c3d",
         "signature": "321b6c915c26d1e85bc1a4f63981e7e156990d6948c8fd8cf9789f0464c99c3d",
         "affectsGlobalScope": false
       },
-      "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts": {
+      "./node_modules/tinybench/dist/index.d.ts": {
         "version": "fbdd4ba3bdd2b138debf86f8ea4ac13a16574e9925d62be28a97f4da282feaeb",
         "signature": "fbdd4ba3bdd2b138debf86f8ea4ac13a16574e9925d62be28a97f4da282feaeb",
         "affectsGlobalScope": false
       },
-      "../../node_modules/vitest/dist/global-732f9b14.d.ts": {
+      "./node_modules/vitest/dist/global-732f9b14.d.ts": {
         "version": "f2964a46290ba20b70f58b85d2eb2fc2dc2bfc56b0d5af28d922a7dcc1a6509a",
         "signature": "f2964a46290ba20b70f58b85d2eb2fc2dc2bfc56b0d5af28d922a7dcc1a6509a",
         "affectsGlobalScope": true
       },
-      "../../node_modules/vitest/dist/index-40e0cb97.d.ts": {
+      "./node_modules/vitest/dist/index-40e0cb97.d.ts": {
         "version": "1c0a9170ebe774eefadaa5cce04e8aa544ecba747a6398af3ac0fb75a857b829",
         "signature": "1c0a9170ebe774eefadaa5cce04e8aa544ecba747a6398af3ac0fb75a857b829",
         "affectsGlobalScope": false
@@ -1506,7 +1506,7 @@
         "signature": "127bf414ca8ced28c9738b91a935121009d03bbc136668db980bd1ba18976b2b",
         "affectsGlobalScope": true
       },
-      "../../node_modules/vitest/dist/index.d.ts": {
+      "./node_modules/vitest/dist/index.d.ts": {
         "version": "9ad1e440685819b491e87350a8be5a07f5ec3f7023303db1c16ce771d3420804",
         "signature": "9ad1e440685819b491e87350a8be5a07f5ec3f7023303db1c16ce771d3420804",
         "affectsGlobalScope": false
@@ -1531,7 +1531,7 @@
         "signature": "ae44182e6fe3da8f055a611cc9f49b800d0c8550b0bcbbeb39404c32a892daab",
         "affectsGlobalScope": false
       },
-      "../../node_modules/vitest/globals.d.ts": {
+      "./node_modules/vitest/globals.d.ts": {
         "version": "9a99c3939d815b8604b89417d514e594417474a784c7cf790d6e71a1d83d630c",
         "signature": "9a99c3939d815b8604b89417d514e594417474a784c7cf790d6e71a1d83d630c",
         "affectsGlobalScope": true
@@ -2986,6 +2986,12 @@
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
+      "./node_modules/tinybench/dist/index.d.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
       "./node_modules/typescript/lib/lib.dom.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
@@ -3250,10 +3256,49 @@
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "./src/__tests__/setup.ts": [
-        "../../node_modules/vitest/dist/index.d.ts",
+      "./node_modules/vitest/dist/global-732f9b14.d.ts": [
+        "../../node_modules/vite/dist/node/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./node_modules/tinybench/dist/index.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "./node_modules/vitest/dist/index-40e0cb97.d.ts": [
+        "../../node_modules/tinyspy/dist/index.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./node_modules/vitest/dist/global-732f9b14.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "./node_modules/vitest/dist/index.d.ts": [
+        "../../node_modules/@types/chai/index.d.ts",
+        "../../node_modules/tinyspy/dist/index.d.ts",
+        "../../node_modules/vite/dist/node/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./node_modules/tinybench/dist/index.d.ts",
+        "./node_modules/vitest/dist/global-732f9b14.d.ts",
+        "./node_modules/vitest/dist/index-40e0cb97.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "./node_modules/vitest/globals.d.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./node_modules/vitest/dist/index.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "./src/__tests__/setup.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./node_modules/vitest/dist/index.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
@@ -3846,67 +3891,10 @@
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../../node_modules/vitest/dist/global-732f9b14.d.ts": [
-        "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts",
-        "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./node_modules/@types/node/worker_threads.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../../node_modules/vitest/dist/index-40e0cb97.d.ts": [
-        "../../node_modules/tinyspy/dist/index.d.ts",
-        "../../node_modules/vitest/dist/global-732f9b14.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../../node_modules/vitest/dist/index.d.ts": [
-        "../../node_modules/@types/chai/index.d.ts",
-        "../../node_modules/tinyspy/dist/index.d.ts",
-        "../../node_modules/vitest/dist/global-732f9b14.d.ts",
-        "../../node_modules/vitest/dist/index-40e0cb97.d.ts",
-        "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts",
-        "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./node_modules/@types/node/worker_threads.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../../node_modules/vitest/globals.d.ts": [
-        "../../node_modules/vitest/dist/index.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../../node_modules/vitest/node_modules/esbuild/lib/main.d.ts": [
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../../node_modules/vitest/node_modules/rollup/dist/rollup.d.ts": [
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts": [
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts": [
+      "../../node_modules/vite/dist/node/index.d.ts": [
         "../../node_modules/postcss/lib/postcss.d.ts",
-        "../../node_modules/vitest/node_modules/esbuild/lib/main.d.ts",
-        "../../node_modules/vitest/node_modules/rollup/dist/rollup.d.ts",
+        "../../node_modules/vite/node_modules/esbuild/lib/main.d.ts",
+        "../../node_modules/vite/node_modules/rollup/dist/rollup.d.ts",
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/http.d.ts",
@@ -3919,6 +3907,18 @@
         "./node_modules/@types/node/tls.d.ts",
         "./node_modules/@types/node/url.d.ts",
         "./node_modules/@types/node/zlib.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vite/node_modules/esbuild/lib/main.d.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vite/node_modules/rollup/dist/rollup.d.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
@@ -5580,6 +5580,12 @@
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
+      "./node_modules/tinybench/dist/index.d.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
       "./node_modules/typescript/lib/lib.dom.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
@@ -5841,6 +5847,45 @@
       "./node_modules/typescript/lib/lib.esnext.weakref.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "./node_modules/vitest/dist/global-732f9b14.d.ts": [
+        "../../node_modules/vite/dist/node/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./node_modules/tinybench/dist/index.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "./node_modules/vitest/dist/index-40e0cb97.d.ts": [
+        "../../node_modules/tinyspy/dist/index.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./node_modules/vitest/dist/global-732f9b14.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "./node_modules/vitest/dist/index.d.ts": [
+        "../../node_modules/@types/chai/index.d.ts",
+        "../../node_modules/tinyspy/dist/index.d.ts",
+        "../../node_modules/vite/dist/node/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./node_modules/tinybench/dist/index.d.ts",
+        "./node_modules/vitest/dist/global-732f9b14.d.ts",
+        "./node_modules/vitest/dist/index-40e0cb97.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "./node_modules/vitest/globals.d.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./node_modules/vitest/dist/index.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
@@ -6166,67 +6211,10 @@
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../../node_modules/vitest/dist/global-732f9b14.d.ts": [
-        "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts",
-        "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./node_modules/@types/node/worker_threads.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../../node_modules/vitest/dist/index-40e0cb97.d.ts": [
-        "../../node_modules/tinyspy/dist/index.d.ts",
-        "../../node_modules/vitest/dist/global-732f9b14.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../../node_modules/vitest/dist/index.d.ts": [
-        "../../node_modules/@types/chai/index.d.ts",
-        "../../node_modules/tinyspy/dist/index.d.ts",
-        "../../node_modules/vitest/dist/global-732f9b14.d.ts",
-        "../../node_modules/vitest/dist/index-40e0cb97.d.ts",
-        "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts",
-        "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./node_modules/@types/node/worker_threads.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../../node_modules/vitest/globals.d.ts": [
-        "../../node_modules/vitest/dist/index.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../../node_modules/vitest/node_modules/esbuild/lib/main.d.ts": [
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../../node_modules/vitest/node_modules/rollup/dist/rollup.d.ts": [
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts": [
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts": [
+      "../../node_modules/vite/dist/node/index.d.ts": [
         "../../node_modules/postcss/lib/postcss.d.ts",
-        "../../node_modules/vitest/node_modules/esbuild/lib/main.d.ts",
-        "../../node_modules/vitest/node_modules/rollup/dist/rollup.d.ts",
+        "../../node_modules/vite/node_modules/esbuild/lib/main.d.ts",
+        "../../node_modules/vite/node_modules/rollup/dist/rollup.d.ts",
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/http.d.ts",
@@ -6239,6 +6227,18 @@
         "./node_modules/@types/node/tls.d.ts",
         "./node_modules/@types/node/url.d.ts",
         "./node_modules/@types/node/zlib.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vite/node_modules/esbuild/lib/main.d.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vite/node_modules/rollup/dist/rollup.d.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
@@ -6637,6 +6637,7 @@
       "./node_modules/graphql/validation/validate.d.ts",
       "./node_modules/graphql/validation/validationcontext.d.ts",
       "./node_modules/graphql/version.d.ts",
+      "./node_modules/tinybench/dist/index.d.ts",
       "./node_modules/typescript/lib/lib.dom.d.ts",
       "./node_modules/typescript/lib/lib.dom.iterable.d.ts",
       "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
@@ -6681,6 +6682,10 @@
       "./node_modules/typescript/lib/lib.esnext.promise.d.ts",
       "./node_modules/typescript/lib/lib.esnext.string.d.ts",
       "./node_modules/typescript/lib/lib.esnext.weakref.d.ts",
+      "./node_modules/vitest/dist/global-732f9b14.d.ts",
+      "./node_modules/vitest/dist/index-40e0cb97.d.ts",
+      "./node_modules/vitest/dist/index.d.ts",
+      "./node_modules/vitest/globals.d.ts",
       "./src/__tests__/setup.ts",
       "./src/constants.d.ts",
       "./src/constants/errors.ts",
@@ -6752,14 +6757,9 @@
       "../../node_modules/source-map-js/source-map.d.ts",
       "../../node_modules/stacktrace-js/stacktrace-js.d.ts",
       "../../node_modules/tinyspy/dist/index.d.ts",
-      "../../node_modules/vitest/dist/global-732f9b14.d.ts",
-      "../../node_modules/vitest/dist/index-40e0cb97.d.ts",
-      "../../node_modules/vitest/dist/index.d.ts",
-      "../../node_modules/vitest/globals.d.ts",
-      "../../node_modules/vitest/node_modules/esbuild/lib/main.d.ts",
-      "../../node_modules/vitest/node_modules/rollup/dist/rollup.d.ts",
-      "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts",
-      "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts",
+      "../../node_modules/vite/dist/node/index.d.ts",
+      "../../node_modules/vite/node_modules/esbuild/lib/main.d.ts",
+      "../../node_modules/vite/node_modules/rollup/dist/rollup.d.ts",
       "../../rrweb/packages/rrdom/es/diff.d.ts",
       "../../rrweb/packages/rrdom/es/document.d.ts",
       "../../rrweb/packages/rrdom/es/index.d.ts",

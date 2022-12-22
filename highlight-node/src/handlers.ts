@@ -13,7 +13,11 @@ interface MiddlewareError extends Error {
 	}
 }
 
-function processErrorImpl(options: NodeOptions, req: {headers?: http.IncomingHttpHeaders}, error: Error): void {
+function processErrorImpl(
+	options: NodeOptions,
+	req: { headers?: http.IncomingHttpHeaders },
+	error: Error,
+): void {
 	if (req.headers && req.headers[HIGHLIGHT_REQUEST_HEADER]) {
 		const [secureSessionId, requestId] =
 			`${req.headers[HIGHLIGHT_REQUEST_HEADER]}`.split('/')
@@ -60,7 +64,13 @@ export function errorHandler(
 /**
  * A TRPC compatible error handler for logging errors to Highlight.
  */
-export async function trpcOnError({ error, req }: {error: Error, req: {headers?: http.IncomingHttpHeaders}}, options: NodeOptions = {}): Promise<void> {
+export async function trpcOnError(
+	{
+		error,
+		req,
+	}: { error: Error; req: { headers?: http.IncomingHttpHeaders } },
+	options: NodeOptions = {},
+): Promise<void> {
 	try {
 		processErrorImpl(options, req, error)
 		await H.flush()
@@ -72,8 +82,14 @@ export async function trpcOnError({ error, req }: {error: Error, req: {headers?:
 /**
  * A wrapper for logging errors to Highlight for Firebase HTTP functions
  */
-declare type FirebaseHttpFunctionHandler = (req: functions.https.Request, resp: functions.Response<any>) => void | Promise<void>
-export function firebaseHttpFunctionHandler(origHandler: FirebaseHttpFunctionHandler, options: NodeOptions = {}): FirebaseHttpFunctionHandler {
+declare type FirebaseHttpFunctionHandler = (
+	req: functions.https.Request,
+	resp: functions.Response<any>,
+) => void | Promise<void>
+export function firebaseHttpFunctionHandler(
+	origHandler: FirebaseHttpFunctionHandler,
+	options: NodeOptions = {},
+): FirebaseHttpFunctionHandler {
 	return async (req, res) => {
 		try {
 			return await origHandler(req, res)
@@ -84,9 +100,12 @@ export function firebaseHttpFunctionHandler(origHandler: FirebaseHttpFunctionHan
 					await H.flush()
 				}
 			} catch (e) {
-				console.warn('highlight-node firebaseHttpFunctionHandler error:', e)
+				console.warn(
+					'highlight-node firebaseHttpFunctionHandler error:',
+					e,
+				)
 			}
-			
+
 			// Rethrow the error here to allow any other error handling to happen
 			throw e
 		}
@@ -96,19 +115,28 @@ export function firebaseHttpFunctionHandler(origHandler: FirebaseHttpFunctionHan
 /**
  * A wrapper for logging errors to Highlight for Firebase callable functions
  */
-declare type FirebaseCallableFunctionHandler = (data: any, context: functions.https.CallableContext) => any
-export function firebaseCallableFunctionHandler(origHandler: FirebaseCallableFunctionHandler, options: NodeOptions = {}): FirebaseCallableFunctionHandler {
+declare type FirebaseCallableFunctionHandler = (
+	data: any,
+	context: functions.https.CallableContext,
+) => any
+export function firebaseCallableFunctionHandler(
+	origHandler: FirebaseCallableFunctionHandler,
+	options: NodeOptions = {},
+): FirebaseCallableFunctionHandler {
 	return async (data, context) => {
 		try {
 			return await origHandler(data, context)
 		} catch (e) {
-			try { 
+			try {
 				if (e instanceof Error) {
 					processErrorImpl(options, context.rawRequest, e)
 					await H.flush()
 				}
 			} catch (e) {
-				console.warn('highlight-node firebaseCallableFunctionHandler error:', e)
+				console.warn(
+					'highlight-node firebaseCallableFunctionHandler error:',
+					e,
+				)
 			}
 
 			// Rethrow the error here to allow any other error handling to happen
