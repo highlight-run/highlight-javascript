@@ -226,157 +226,157 @@
         "signature": "b78d8d9225892c1cc6b92c5e0dbec568332d98ea946ed33f4aa3f9e979b7fe42",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb-snapshot/typings/types.d.ts": {
+      "../../rrweb/packages/rrweb-snapshot/typings/types.d.ts": {
         "version": "66c2a6b549a341d34fbf38bdf6f0a087cd8b2dc3e6ebeb5e60b6c1d5b9ebed34",
         "signature": "66c2a6b549a341d34fbf38bdf6f0a087cd8b2dc3e6ebeb5e60b6c1d5b9ebed34",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb-snapshot/typings/utils.d.ts": {
-        "version": "86b4666d209e589f3e6bd67d040698f2223604c4e96a69382b613ca2b9e97712",
-        "signature": "86b4666d209e589f3e6bd67d040698f2223604c4e96a69382b613ca2b9e97712",
+      "../../rrweb/packages/rrweb-snapshot/typings/utils.d.ts": {
+        "version": "99bed2281b8181906d223c0e9df7ab85635831db0bf96a669a72c011863359fd",
+        "signature": "99bed2281b8181906d223c0e9df7ab85635831db0bf96a669a72c011863359fd",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb-snapshot/typings/snapshot.d.ts": {
+      "../../rrweb/packages/rrweb-snapshot/typings/snapshot.d.ts": {
         "version": "a60b0249f014aada7925744f8b33a51b0324bb121052a27da2a05a6fb899eb50",
         "signature": "a60b0249f014aada7925744f8b33a51b0324bb121052a27da2a05a6fb899eb50",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb-snapshot/typings/rebuild.d.ts": {
+      "../../rrweb/packages/rrweb-snapshot/typings/rebuild.d.ts": {
         "version": "43c2f747cdae38cea35401b50d0c956e02274fe01783a98d9b36b2a762449741",
         "signature": "43c2f747cdae38cea35401b50d0c956e02274fe01783a98d9b36b2a762449741",
         "affectsGlobalScope": true
       },
-      "../rrweb/packages/rrweb-snapshot/typings/index.d.ts": {
+      "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts": {
         "version": "577b32f9421fb6471f7edf13d27ed39100030970971b1486c1c137c8bb04df84",
         "signature": "577b32f9421fb6471f7edf13d27ed39100030970971b1486c1c137c8bb04df84",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/packer/base.d.ts": {
+      "../../rrweb/packages/rrweb/typings/packer/base.d.ts": {
         "version": "c4d5d90c1c49a3473316237d4d740105c5c868a2a8a59c9b8dbbd6ccc4e627ff",
         "signature": "c4d5d90c1c49a3473316237d4d740105c5c868a2a8a59c9b8dbbd6ccc4e627ff",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrdom/es/document.d.ts": {
+      "../../rrweb/packages/rrdom/es/document.d.ts": {
         "version": "121bdb3fef002312657b179fa3fb02d846ae1f153c9c8965d80350eebf0cdbfb",
         "signature": "121bdb3fef002312657b179fa3fb02d846ae1f153c9c8965d80350eebf0cdbfb",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrdom/es/diff.d.ts": {
+      "../../rrweb/packages/rrdom/es/diff.d.ts": {
         "version": "1dc3aedbe8d3fd5f769ab05feebeeed144f13bf629c5b77ea5df16485e862844",
         "signature": "1dc3aedbe8d3fd5f769ab05feebeeed144f13bf629c5b77ea5df16485e862844",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrdom/es/index.d.ts": {
+      "../../rrweb/packages/rrdom/es/index.d.ts": {
         "version": "f1a41516396f0b2c80ff87f18fb6d506d08c7af55ff7b68450a2d3452bdf2f12",
         "signature": "f1a41516396f0b2c80ff87f18fb6d506d08c7af55ff7b68450a2d3452bdf2f12",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/utils.d.ts": {
+      "../../rrweb/packages/rrweb/typings/utils.d.ts": {
         "version": "e64320982d1c3bd8de3bfad5a0e093b03fa716161ab3a8d2fc8f34d07ce6fa73",
         "signature": "e64320982d1c3bd8de3bfad5a0e093b03fa716161ab3a8d2fc8f34d07ce6fa73",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts": {
+      "../../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts": {
         "version": "ec9b42a3aa102438f7951bead40e4ea64033c9ce8c7c2329edfad60efd2c1a34",
         "signature": "ec9b42a3aa102438f7951bead40e4ea64033c9ce8c7c2329edfad60efd2c1a34",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/record/iframe-manager.d.ts": {
+      "../../rrweb/packages/rrweb/typings/record/iframe-manager.d.ts": {
         "version": "81202cf1a488ef6cd10e2e74a365fae741bc31926b4c21617b064ed1a092a156",
         "signature": "81202cf1a488ef6cd10e2e74a365fae741bc31926b4c21617b064ed1a092a156",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/record/shadow-dom-manager.d.ts": {
+      "../../rrweb/packages/rrweb/typings/record/shadow-dom-manager.d.ts": {
         "version": "4edbfcff4f3541fa02b847100dacbcb2e59823b9cf92dbdb32b5a67b4ee626b2",
         "signature": "4edbfcff4f3541fa02b847100dacbcb2e59823b9cf92dbdb32b5a67b4ee626b2",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/replay/timer.d.ts": {
+      "../../rrweb/packages/rrweb/typings/replay/timer.d.ts": {
         "version": "781b5a45aaa4c801cfdd0b4a1a9de7e65b33a5298abed023d0a607a9d86bb53d",
         "signature": "781b5a45aaa4c801cfdd0b4a1a9de7e65b33a5298abed023d0a607a9d86bb53d",
         "affectsGlobalScope": false
       },
-      "../node_modules/@xstate/fsm/lib/types.d.ts": {
+      "../../node_modules/@xstate/fsm/lib/types.d.ts": {
         "version": "5ba057693f0f15263fdb5a23dbf4bfd950bbbb088da1e6450c5496803764a237",
         "signature": "5ba057693f0f15263fdb5a23dbf4bfd950bbbb088da1e6450c5496803764a237",
         "affectsGlobalScope": false
       },
-      "../node_modules/@xstate/fsm/lib/index.d.ts": {
+      "../../node_modules/@xstate/fsm/lib/index.d.ts": {
         "version": "5d68fe9351a931534eefb1497ed7f6a6898e616407c4b4fae6b090748ada1423",
         "signature": "5d68fe9351a931534eefb1497ed7f6a6898e616407c4b4fae6b090748ada1423",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/replay/machine.d.ts": {
+      "../../rrweb/packages/rrweb/typings/replay/machine.d.ts": {
         "version": "c4539fd361cc2572f1b1a564b3f6798dc665e4f9393e4c535381f249f586dc46",
         "signature": "c4539fd361cc2572f1b1a564b3f6798dc665e4f9393e4c535381f249f586dc46",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/replay/index.d.ts": {
+      "../../rrweb/packages/rrweb/typings/replay/index.d.ts": {
         "version": "b94a8195cc96865f75e5c2b197b49dd2dce9b014dbfb6bdf88667589b481210e",
         "signature": "b94a8195cc96865f75e5c2b197b49dd2dce9b014dbfb6bdf88667589b481210e",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/record/observers/canvas/canvas-manager.d.ts": {
+      "../../rrweb/packages/rrweb/typings/record/observers/canvas/canvas-manager.d.ts": {
         "version": "5328e8baeba77532499da3caba5674f97e62b0d4b49385fc11f1731f24b045d8",
         "signature": "5328e8baeba77532499da3caba5674f97e62b0d4b49385fc11f1731f24b045d8",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/types.d.ts": {
+      "../../rrweb/packages/rrweb/typings/types.d.ts": {
         "version": "74905e406fac264774b0010822492711f5f47c96d2a7046b18ac2212e9d393b3",
         "signature": "74905e406fac264774b0010822492711f5f47c96d2a7046b18ac2212e9d393b3",
         "affectsGlobalScope": true
       },
-      "../rrweb/packages/rrweb/typings/record/index.d.ts": {
+      "../../rrweb/packages/rrweb/typings/record/index.d.ts": {
         "version": "e593f7897d63a5c894109bbe91e5fc8add892799cfd8af8bc705c8761b34a2ce",
         "signature": "e593f7897d63a5c894109bbe91e5fc8add892799cfd8af8bc705c8761b34a2ce",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/index.d.ts": {
+      "../../rrweb/packages/rrweb/typings/index.d.ts": {
         "version": "50d40be8da9852d4e14f3183037492aa75e387a6eb91abd75b6d7dc6c185c8c1",
         "signature": "50d40be8da9852d4e14f3183037492aa75e387a6eb91abd75b6d7dc6c185c8c1",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/packer/pack.d.ts": {
+      "../../rrweb/packages/rrweb/typings/packer/pack.d.ts": {
         "version": "af0fc2cf42a71c4ebc6edaef5f2afd6a45ea1f9af5394201a0b0c0a3830bba48",
         "signature": "af0fc2cf42a71c4ebc6edaef5f2afd6a45ea1f9af5394201a0b0c0a3830bba48",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/packer/unpack.d.ts": {
+      "../../rrweb/packages/rrweb/typings/packer/unpack.d.ts": {
         "version": "86afe2bb90bf06064e9200c30e1dccda8a8b99cc1bbb4817aaff4896c8a310fc",
         "signature": "86afe2bb90bf06064e9200c30e1dccda8a8b99cc1bbb4817aaff4896c8a310fc",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/packer/index.d.ts": {
+      "../../rrweb/packages/rrweb/typings/packer/index.d.ts": {
         "version": "09f52bd58d40cfd42eb6cde41bffef5ca30df025551ffd16aa7b0b3e4514bfbe",
         "signature": "09f52bd58d40cfd42eb6cde41bffef5ca30df025551ffd16aa7b0b3e4514bfbe",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts": {
+      "../../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts": {
         "version": "1fd4a72524a6a6cbd6a490d677d04d876bbc90c8407fd763bfa75e60c262e963",
         "signature": "1fd4a72524a6a6cbd6a490d677d04d876bbc90c8407fd763bfa75e60c262e963",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/plugins/console/replay/index.d.ts": {
+      "../../rrweb/packages/rrweb/typings/plugins/console/replay/index.d.ts": {
         "version": "24f5e06bfecfc024673330868bfbda09d77faa20f9bd7699cd6443cc7de86830",
         "signature": "24f5e06bfecfc024673330868bfbda09d77faa20f9bd7699cd6443cc7de86830",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts": {
+      "../../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts": {
         "version": "da233f8f88aaf5c467fd691466ed1e0180db65d31c45e635184d93e4f9f241ae",
         "signature": "da233f8f88aaf5c467fd691466ed1e0180db65d31c45e635184d93e4f9f241ae",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/plugins/sequential-id/replay/index.d.ts": {
+      "../../rrweb/packages/rrweb/typings/plugins/sequential-id/replay/index.d.ts": {
         "version": "6ea84eb6f91349c48dfb733f4c737728205fe74f12b1b91bb16c661bf341f711",
         "signature": "6ea84eb6f91349c48dfb733f4c737728205fe74f12b1b91bb16c661bf341f711",
         "affectsGlobalScope": false
       },
-      "../rrweb/packages/rrweb/typings/entries/all.d.ts": {
+      "../../rrweb/packages/rrweb/typings/entries/all.d.ts": {
         "version": "47fc6fae491e5743654bad6cc1cd0957c0537faf5e13621e7208de35a276e4c1",
         "signature": "47fc6fae491e5743654bad6cc1cd0957c0537faf5e13621e7208de35a276e4c1",
         "affectsGlobalScope": false
       },
-      "../node_modules/stacktrace-js/stacktrace-js.d.ts": {
+      "../../node_modules/stacktrace-js/stacktrace-js.d.ts": {
         "version": "880315e343e055985d1ef789f30f48080dcecfb64c2f03446e2c5774a8b5d88a",
         "signature": "880315e343e055985d1ef789f30f48080dcecfb64c2f03446e2c5774a8b5d88a",
         "affectsGlobalScope": true
@@ -396,7 +396,7 @@
         "signature": "2e9bd69419ca898100d66cc7d0b7d3eb436cae51199a9f3e70491ccbcb63b2f4",
         "affectsGlobalScope": false
       },
-      "../node_modules/error-stack-parser/error-stack-parser.d.ts": {
+      "../../node_modules/error-stack-parser/error-stack-parser.d.ts": {
         "version": "34ab30eb58c0c0206c8bad600ac8db231e0ed82893843316582d25f28bea7b3d",
         "signature": "34ab30eb58c0c0206c8bad600ac8db231e0ed82893843316582d25f28bea7b3d",
         "affectsGlobalScope": false
@@ -406,7 +406,7 @@
         "signature": "b792321c4adfb996e9476d0c0eba06a6e681687e1c0b12508e4c60db24503bf3",
         "affectsGlobalScope": false
       },
-      "../node_modules/@types/json-stringify-safe/index.d.ts": {
+      "../../node_modules/@types/json-stringify-safe/index.d.ts": {
         "version": "64eed1f2c6181b9b2e0c26491b7b2ef70f7a4a7f8871ec551d5b76fdf06289b6",
         "signature": "64eed1f2c6181b9b2e0c26491b7b2ef70f7a4a7f8871ec551d5b76fdf06289b6",
         "affectsGlobalScope": false
@@ -1046,7 +1046,7 @@
         "signature": "d1b6f0fe8de13aa865a49d4f35be76b9f4ff6d671d8eddd53a9c8c4ba9072ee0",
         "affectsGlobalScope": false
       },
-      "../node_modules/@highlight-run/fingerprintjs/dist/fp.d.ts": {
+      "../../node_modules/@highlight-run/fingerprintjs/dist/fp.d.ts": {
         "version": "48a953e0f0d78239e2aeb991d63757a8cb38197867e11ef85c7f1014d92fffd3",
         "signature": "48a953e0f0d78239e2aeb991d63757a8cb38197867e11ef85c7f1014d92fffd3",
         "affectsGlobalScope": false
@@ -1116,7 +1116,7 @@
         "signature": "2d95bdce0dfd972f20850a51b0660a76c92e8b1c2997b11a67acf90791cbcdbf",
         "affectsGlobalScope": true
       },
-      "../node_modules/tinyspy/dist/index.d.ts": {
+      "../../node_modules/tinyspy/dist/index.d.ts": {
         "version": "a7157ee945ba3e7ccf605cf5f2e83e62f7694b92a3ddf8bc69c5182fe93aa98f",
         "signature": "a7157ee945ba3e7ccf605cf5f2e83e62f7694b92a3ddf8bc69c5182fe93aa98f",
         "affectsGlobalScope": false
@@ -1376,137 +1376,137 @@
         "signature": "06b4e032b397f9bad48024b5f942595d2b8c398ab462fd0ba961c5203efb8a55",
         "affectsGlobalScope": false
       },
-      "../node_modules/vite/node_modules/esbuild/lib/main.d.ts": {
+      "../../node_modules/vitest/node_modules/esbuild/lib/main.d.ts": {
         "version": "3a3793e1d2d4af2e002b3c4a086cc8d7458c19ce3c34f72640652c76ca4f34d9",
         "signature": "3a3793e1d2d4af2e002b3c4a086cc8d7458c19ce3c34f72640652c76ca4f34d9",
         "affectsGlobalScope": false
       },
-      "../node_modules/vite/node_modules/rollup/dist/rollup.d.ts": {
+      "../../node_modules/vitest/node_modules/rollup/dist/rollup.d.ts": {
         "version": "aa1ed14f1785b6896ffa26b1158047b4774ee51a3edb68ecc1a045494d82ef7e",
         "signature": "aa1ed14f1785b6896ffa26b1158047b4774ee51a3edb68ecc1a045494d82ef7e",
         "affectsGlobalScope": false
       },
-      "../node_modules/source-map-js/source-map.d.ts": {
+      "../../node_modules/source-map-js/source-map.d.ts": {
         "version": "858d0d831826c6eb563df02f7db71c90e26deadd0938652096bea3cc14899700",
         "signature": "858d0d831826c6eb563df02f7db71c90e26deadd0938652096bea3cc14899700",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/comment.d.ts": {
+      "../../node_modules/postcss/lib/comment.d.ts": {
         "version": "d1c89db652113258e4ba4bbdf5cc7a2a3a600403d4d864a2087b95186253cd5b",
         "signature": "d1c89db652113258e4ba4bbdf5cc7a2a3a600403d4d864a2087b95186253cd5b",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/at-rule.d.ts": {
+      "../../node_modules/postcss/lib/at-rule.d.ts": {
         "version": "11a90d2cb2eaf7fdf931a63b58279e8161f1477a1bd1e914ae026c1bbf9afed3",
         "signature": "11a90d2cb2eaf7fdf931a63b58279e8161f1477a1bd1e914ae026c1bbf9afed3",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/rule.d.ts": {
+      "../../node_modules/postcss/lib/rule.d.ts": {
         "version": "af18e30f3ba06e9870b61dfa4a109215caabdaa337590c51b4a044a9f338ce96",
         "signature": "af18e30f3ba06e9870b61dfa4a109215caabdaa337590c51b4a044a9f338ce96",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/container.d.ts": {
+      "../../node_modules/postcss/lib/container.d.ts": {
         "version": "ace603f7b60599f2dcdbd71c07137b60a747dd33be540f4a294b890f9e0b89dc",
         "signature": "ace603f7b60599f2dcdbd71c07137b60a747dd33be540f4a294b890f9e0b89dc",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/declaration.d.ts": {
+      "../../node_modules/postcss/lib/declaration.d.ts": {
         "version": "7658fbdd425c656fb1849b44932ae7431e8c3198d22c65ce1490deb582743b52",
         "signature": "7658fbdd425c656fb1849b44932ae7431e8c3198d22c65ce1490deb582743b52",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/previous-map.d.ts": {
+      "../../node_modules/postcss/lib/previous-map.d.ts": {
         "version": "7786c75c1b46e93b33c63dccf689143a5f47ff451a6b3bd9b10e4801cdeadcc2",
         "signature": "7786c75c1b46e93b33c63dccf689143a5f47ff451a6b3bd9b10e4801cdeadcc2",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/input.d.ts": {
+      "../../node_modules/postcss/lib/input.d.ts": {
         "version": "615b7264db151461b896cd79719414d63f7b2b2100b275828e53cab95a356e2f",
         "signature": "615b7264db151461b896cd79719414d63f7b2b2100b275828e53cab95a356e2f",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/css-syntax-error.d.ts": {
+      "../../node_modules/postcss/lib/css-syntax-error.d.ts": {
         "version": "31491a01ed7466e0b3b0ef8407f2524683055eceb955b1d5ccf7096129468b39",
         "signature": "31491a01ed7466e0b3b0ef8407f2524683055eceb955b1d5ccf7096129468b39",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/warning.d.ts": {
+      "../../node_modules/postcss/lib/warning.d.ts": {
         "version": "f4b12f7dde4fc0e386648318481bdcfe861b566be246bebf0e8a11ebd909adf9",
         "signature": "f4b12f7dde4fc0e386648318481bdcfe861b566be246bebf0e8a11ebd909adf9",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/document.d.ts": {
+      "../../node_modules/postcss/lib/document.d.ts": {
         "version": "e8966f7c424780bb0b9d411ebe13eda8555ca15aa675603316c2952bc027b0e3",
         "signature": "e8966f7c424780bb0b9d411ebe13eda8555ca15aa675603316c2952bc027b0e3",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/root.d.ts": {
+      "../../node_modules/postcss/lib/root.d.ts": {
         "version": "df0e5f3c4a518111d160cf3bebc9a3ac7d39c6e3bfb7a21d43c304896c3015e2",
         "signature": "df0e5f3c4a518111d160cf3bebc9a3ac7d39c6e3bfb7a21d43c304896c3015e2",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/lazy-result.d.ts": {
+      "../../node_modules/postcss/lib/lazy-result.d.ts": {
         "version": "df4e2f161f74870708c2cc5e1036a6405b878496408fda1ee50d5b10e50d6601",
         "signature": "df4e2f161f74870708c2cc5e1036a6405b878496408fda1ee50d5b10e50d6601",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/no-work-result.d.ts": {
+      "../../node_modules/postcss/lib/no-work-result.d.ts": {
         "version": "bf791da347fb1c0ffc1e2fcd35867e64bb8355270ae26278198c521bdcf94569",
         "signature": "bf791da347fb1c0ffc1e2fcd35867e64bb8355270ae26278198c521bdcf94569",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/processor.d.ts": {
+      "../../node_modules/postcss/lib/processor.d.ts": {
         "version": "e0e0e3c068e145fbb322120979299ff130ffdd39f0dcd0d5aeaa9f3f8a0d01d9",
         "signature": "e0e0e3c068e145fbb322120979299ff130ffdd39f0dcd0d5aeaa9f3f8a0d01d9",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/result.d.ts": {
+      "../../node_modules/postcss/lib/result.d.ts": {
         "version": "fde91356172e35b9ea68bbdf33721f7c80307a4ce65b82105eac800e9e744995",
         "signature": "fde91356172e35b9ea68bbdf33721f7c80307a4ce65b82105eac800e9e744995",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/node.d.ts": {
+      "../../node_modules/postcss/lib/node.d.ts": {
         "version": "9bd5e5a4a1e66b35efe3c48ddac1116537ef86e041717f3a9b9f1e060c74efa6",
         "signature": "9bd5e5a4a1e66b35efe3c48ddac1116537ef86e041717f3a9b9f1e060c74efa6",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/list.d.ts": {
+      "../../node_modules/postcss/lib/list.d.ts": {
         "version": "d7e4a5f4ccfb749c3033fafc233073b4d1dcca0249785186c589602a81f9d86f",
         "signature": "d7e4a5f4ccfb749c3033fafc233073b4d1dcca0249785186c589602a81f9d86f",
         "affectsGlobalScope": false
       },
-      "../node_modules/postcss/lib/postcss.d.ts": {
+      "../../node_modules/postcss/lib/postcss.d.ts": {
         "version": "68161b6f3004fc10f8bb47a4986cef13c3b0728fb1ca3e1dc7316227d09b2c8d",
         "signature": "68161b6f3004fc10f8bb47a4986cef13c3b0728fb1ca3e1dc7316227d09b2c8d",
         "affectsGlobalScope": false
       },
-      "../node_modules/vite/dist/node/index.d.ts": {
+      "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts": {
         "version": "321b6c915c26d1e85bc1a4f63981e7e156990d6948c8fd8cf9789f0464c99c3d",
         "signature": "321b6c915c26d1e85bc1a4f63981e7e156990d6948c8fd8cf9789f0464c99c3d",
         "affectsGlobalScope": false
       },
-      "../node_modules/tinybench/dist/index.d.ts": {
+      "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts": {
         "version": "fbdd4ba3bdd2b138debf86f8ea4ac13a16574e9925d62be28a97f4da282feaeb",
         "signature": "fbdd4ba3bdd2b138debf86f8ea4ac13a16574e9925d62be28a97f4da282feaeb",
         "affectsGlobalScope": false
       },
-      "../node_modules/vitest/dist/global-732f9b14.d.ts": {
+      "../../node_modules/vitest/dist/global-732f9b14.d.ts": {
         "version": "f2964a46290ba20b70f58b85d2eb2fc2dc2bfc56b0d5af28d922a7dcc1a6509a",
         "signature": "f2964a46290ba20b70f58b85d2eb2fc2dc2bfc56b0d5af28d922a7dcc1a6509a",
         "affectsGlobalScope": true
       },
-      "../node_modules/vitest/dist/index-40e0cb97.d.ts": {
+      "../../node_modules/vitest/dist/index-40e0cb97.d.ts": {
         "version": "1c0a9170ebe774eefadaa5cce04e8aa544ecba747a6398af3ac0fb75a857b829",
         "signature": "1c0a9170ebe774eefadaa5cce04e8aa544ecba747a6398af3ac0fb75a857b829",
         "affectsGlobalScope": false
       },
-      "../node_modules/@types/chai/index.d.ts": {
+      "../../node_modules/@types/chai/index.d.ts": {
         "version": "127bf414ca8ced28c9738b91a935121009d03bbc136668db980bd1ba18976b2b",
         "signature": "127bf414ca8ced28c9738b91a935121009d03bbc136668db980bd1ba18976b2b",
         "affectsGlobalScope": true
       },
-      "../node_modules/vitest/dist/index.d.ts": {
+      "../../node_modules/vitest/dist/index.d.ts": {
         "version": "9ad1e440685819b491e87350a8be5a07f5ec3f7023303db1c16ce771d3420804",
         "signature": "9ad1e440685819b491e87350a8be5a07f5ec3f7023303db1c16ce771d3420804",
         "affectsGlobalScope": false
@@ -1531,7 +1531,7 @@
         "signature": "ae44182e6fe3da8f055a611cc9f49b800d0c8550b0bcbbeb39404c32a892daab",
         "affectsGlobalScope": false
       },
-      "../node_modules/vitest/globals.d.ts": {
+      "../../node_modules/vitest/globals.d.ts": {
         "version": "9a99c3939d815b8604b89417d514e594417474a784c7cf790d6e71a1d83d630c",
         "signature": "9a99c3939d815b8604b89417d514e594417474a784c7cf790d6e71a1d83d630c",
         "affectsGlobalScope": true
@@ -3251,7 +3251,7 @@
         "./src/types/constants.d.ts"
       ],
       "./src/__tests__/setup.ts": [
-        "../node_modules/vitest/dist/index.d.ts",
+        "../../node_modules/vitest/dist/index.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
@@ -3284,12 +3284,12 @@
         "./src/types/constants.d.ts"
       ],
       "./src/index.tsx": [
-        "../node_modules/@highlight-run/fingerprintjs/dist/fp.d.ts",
-        "../node_modules/@types/json-stringify-safe/index.d.ts",
-        "../node_modules/error-stack-parser/error-stack-parser.d.ts",
-        "../node_modules/stacktrace-js/stacktrace-js.d.ts",
-        "../rrweb/packages/rrweb/typings/entries/all.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+        "../../node_modules/@highlight-run/fingerprintjs/dist/fp.d.ts",
+        "../../node_modules/@types/json-stringify-safe/index.d.ts",
+        "../../node_modules/error-stack-parser/error-stack-parser.d.ts",
+        "../../node_modules/stacktrace-js/stacktrace-js.d.ts",
+        "../../rrweb/packages/rrweb/typings/entries/all.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./node_modules/graphql-request/dist/index.d.ts",
@@ -3335,7 +3335,7 @@
         "./src/utils/dom/index.ts"
       ],
       "./src/listeners/console-listener.tsx": [
-        "../node_modules/error-stack-parser/error-stack-parser.d.ts",
+        "../../node_modules/error-stack-parser/error-stack-parser.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
@@ -3345,8 +3345,8 @@
         "./src/utils/utils.ts"
       ],
       "./src/listeners/error-listener.tsx": [
-        "../node_modules/@types/json-stringify-safe/index.d.ts",
-        "../node_modules/error-stack-parser/error-stack-parser.d.ts",
+        "../../node_modules/@types/json-stringify-safe/index.d.ts",
+        "../../node_modules/error-stack-parser/error-stack-parser.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
@@ -3354,7 +3354,7 @@
         "./src/types/shared-types.tsx"
       ],
       "./src/listeners/first-load-listeners.tsx": [
-        "../node_modules/@types/json-stringify-safe/index.d.ts",
+        "../../node_modules/@types/json-stringify-safe/index.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
@@ -3502,7 +3502,7 @@
         "./src/constants.d.ts"
       ],
       "./src/types/shared-types.tsx": [
-        "../node_modules/stacktrace-js/stacktrace-js.d.ts",
+        "../../node_modules/stacktrace-js/stacktrace-js.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
@@ -3581,7 +3581,7 @@
         "./src/types/constants.d.ts"
       ],
       "./src/workers/highlight-client-worker.ts": [
-        "../node_modules/@types/json-stringify-safe/index.d.ts",
+        "../../node_modules/@types/json-stringify-safe/index.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./node_modules/graphql-request/dist/index.d.ts",
@@ -3596,7 +3596,7 @@
         "./src/workers/types.ts"
       ],
       "./src/workers/types.ts": [
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
@@ -3610,252 +3610,303 @@
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/@highlight-run/fingerprintjs/dist/fp.d.ts": [
+      "../../node_modules/@highlight-run/fingerprintjs/dist/fp.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/@types/chai/index.d.ts": [
+      "../../node_modules/@types/chai/index.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/@types/json-stringify-safe/index.d.ts": [
+      "../../node_modules/@types/json-stringify-safe/index.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/@xstate/fsm/lib/index.d.ts": [
-        "../node_modules/@xstate/fsm/lib/types.d.ts",
+      "../../node_modules/@xstate/fsm/lib/index.d.ts": [
+        "../../node_modules/@xstate/fsm/lib/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/@xstate/fsm/lib/types.d.ts": [
+      "../../node_modules/@xstate/fsm/lib/types.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/error-stack-parser/error-stack-parser.d.ts": [
+      "../../node_modules/error-stack-parser/error-stack-parser.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/at-rule.d.ts": [
-        "../node_modules/postcss/lib/container.d.ts",
+      "../../node_modules/postcss/lib/at-rule.d.ts": [
+        "../../node_modules/postcss/lib/container.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/comment.d.ts": [
-        "../node_modules/postcss/lib/container.d.ts",
-        "../node_modules/postcss/lib/node.d.ts",
+      "../../node_modules/postcss/lib/comment.d.ts": [
+        "../../node_modules/postcss/lib/container.d.ts",
+        "../../node_modules/postcss/lib/node.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/container.d.ts": [
-        "../node_modules/postcss/lib/at-rule.d.ts",
-        "../node_modules/postcss/lib/comment.d.ts",
-        "../node_modules/postcss/lib/declaration.d.ts",
-        "../node_modules/postcss/lib/node.d.ts",
-        "../node_modules/postcss/lib/rule.d.ts",
+      "../../node_modules/postcss/lib/container.d.ts": [
+        "../../node_modules/postcss/lib/at-rule.d.ts",
+        "../../node_modules/postcss/lib/comment.d.ts",
+        "../../node_modules/postcss/lib/declaration.d.ts",
+        "../../node_modules/postcss/lib/node.d.ts",
+        "../../node_modules/postcss/lib/rule.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/css-syntax-error.d.ts": [
-        "../node_modules/postcss/lib/input.d.ts",
+      "../../node_modules/postcss/lib/css-syntax-error.d.ts": [
+        "../../node_modules/postcss/lib/input.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/declaration.d.ts": [
-        "../node_modules/postcss/lib/container.d.ts",
-        "../node_modules/postcss/lib/node.d.ts",
+      "../../node_modules/postcss/lib/declaration.d.ts": [
+        "../../node_modules/postcss/lib/container.d.ts",
+        "../../node_modules/postcss/lib/node.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/document.d.ts": [
-        "../node_modules/postcss/lib/container.d.ts",
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/result.d.ts",
-        "../node_modules/postcss/lib/root.d.ts",
+      "../../node_modules/postcss/lib/document.d.ts": [
+        "../../node_modules/postcss/lib/container.d.ts",
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/result.d.ts",
+        "../../node_modules/postcss/lib/root.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/input.d.ts": [
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/previous-map.d.ts",
+      "../../node_modules/postcss/lib/input.d.ts": [
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/previous-map.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/lazy-result.d.ts": [
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/processor.d.ts",
-        "../node_modules/postcss/lib/result.d.ts",
-        "../node_modules/postcss/lib/root.d.ts",
-        "../node_modules/postcss/lib/warning.d.ts",
+      "../../node_modules/postcss/lib/lazy-result.d.ts": [
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/processor.d.ts",
+        "../../node_modules/postcss/lib/result.d.ts",
+        "../../node_modules/postcss/lib/root.d.ts",
+        "../../node_modules/postcss/lib/warning.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/list.d.ts": [
+      "../../node_modules/postcss/lib/list.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/no-work-result.d.ts": [
-        "../node_modules/postcss/lib/lazy-result.d.ts",
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/processor.d.ts",
-        "../node_modules/postcss/lib/result.d.ts",
-        "../node_modules/postcss/lib/root.d.ts",
-        "../node_modules/postcss/lib/warning.d.ts",
+      "../../node_modules/postcss/lib/no-work-result.d.ts": [
+        "../../node_modules/postcss/lib/lazy-result.d.ts",
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/processor.d.ts",
+        "../../node_modules/postcss/lib/result.d.ts",
+        "../../node_modules/postcss/lib/root.d.ts",
+        "../../node_modules/postcss/lib/warning.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/node.d.ts": [
-        "../node_modules/postcss/lib/at-rule.d.ts",
-        "../node_modules/postcss/lib/comment.d.ts",
-        "../node_modules/postcss/lib/container.d.ts",
-        "../node_modules/postcss/lib/css-syntax-error.d.ts",
-        "../node_modules/postcss/lib/declaration.d.ts",
-        "../node_modules/postcss/lib/document.d.ts",
-        "../node_modules/postcss/lib/input.d.ts",
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/result.d.ts",
-        "../node_modules/postcss/lib/root.d.ts",
-        "../node_modules/postcss/lib/rule.d.ts",
-        "../node_modules/postcss/lib/warning.d.ts",
+      "../../node_modules/postcss/lib/node.d.ts": [
+        "../../node_modules/postcss/lib/at-rule.d.ts",
+        "../../node_modules/postcss/lib/comment.d.ts",
+        "../../node_modules/postcss/lib/container.d.ts",
+        "../../node_modules/postcss/lib/css-syntax-error.d.ts",
+        "../../node_modules/postcss/lib/declaration.d.ts",
+        "../../node_modules/postcss/lib/document.d.ts",
+        "../../node_modules/postcss/lib/input.d.ts",
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/result.d.ts",
+        "../../node_modules/postcss/lib/root.d.ts",
+        "../../node_modules/postcss/lib/rule.d.ts",
+        "../../node_modules/postcss/lib/warning.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/postcss.d.ts": [
-        "../node_modules/postcss/lib/at-rule.d.ts",
-        "../node_modules/postcss/lib/comment.d.ts",
-        "../node_modules/postcss/lib/container.d.ts",
-        "../node_modules/postcss/lib/css-syntax-error.d.ts",
-        "../node_modules/postcss/lib/declaration.d.ts",
-        "../node_modules/postcss/lib/document.d.ts",
-        "../node_modules/postcss/lib/input.d.ts",
-        "../node_modules/postcss/lib/lazy-result.d.ts",
-        "../node_modules/postcss/lib/list.d.ts",
-        "../node_modules/postcss/lib/node.d.ts",
-        "../node_modules/postcss/lib/processor.d.ts",
-        "../node_modules/postcss/lib/result.d.ts",
-        "../node_modules/postcss/lib/root.d.ts",
-        "../node_modules/postcss/lib/rule.d.ts",
-        "../node_modules/postcss/lib/warning.d.ts",
-        "../node_modules/source-map-js/source-map.d.ts",
+      "../../node_modules/postcss/lib/postcss.d.ts": [
+        "../../node_modules/postcss/lib/at-rule.d.ts",
+        "../../node_modules/postcss/lib/comment.d.ts",
+        "../../node_modules/postcss/lib/container.d.ts",
+        "../../node_modules/postcss/lib/css-syntax-error.d.ts",
+        "../../node_modules/postcss/lib/declaration.d.ts",
+        "../../node_modules/postcss/lib/document.d.ts",
+        "../../node_modules/postcss/lib/input.d.ts",
+        "../../node_modules/postcss/lib/lazy-result.d.ts",
+        "../../node_modules/postcss/lib/list.d.ts",
+        "../../node_modules/postcss/lib/node.d.ts",
+        "../../node_modules/postcss/lib/processor.d.ts",
+        "../../node_modules/postcss/lib/result.d.ts",
+        "../../node_modules/postcss/lib/root.d.ts",
+        "../../node_modules/postcss/lib/rule.d.ts",
+        "../../node_modules/postcss/lib/warning.d.ts",
+        "../../node_modules/source-map-js/source-map.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/previous-map.d.ts": [
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/source-map-js/source-map.d.ts",
+      "../../node_modules/postcss/lib/previous-map.d.ts": [
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/source-map-js/source-map.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/processor.d.ts": [
-        "../node_modules/postcss/lib/lazy-result.d.ts",
-        "../node_modules/postcss/lib/no-work-result.d.ts",
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/result.d.ts",
-        "../node_modules/postcss/lib/root.d.ts",
+      "../../node_modules/postcss/lib/processor.d.ts": [
+        "../../node_modules/postcss/lib/lazy-result.d.ts",
+        "../../node_modules/postcss/lib/no-work-result.d.ts",
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/result.d.ts",
+        "../../node_modules/postcss/lib/root.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/result.d.ts": [
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/processor.d.ts",
+      "../../node_modules/postcss/lib/result.d.ts": [
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/processor.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/root.d.ts": [
-        "../node_modules/postcss/lib/container.d.ts",
-        "../node_modules/postcss/lib/document.d.ts",
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/result.d.ts",
+      "../../node_modules/postcss/lib/root.d.ts": [
+        "../../node_modules/postcss/lib/container.d.ts",
+        "../../node_modules/postcss/lib/document.d.ts",
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/result.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/rule.d.ts": [
-        "../node_modules/postcss/lib/container.d.ts",
+      "../../node_modules/postcss/lib/rule.d.ts": [
+        "../../node_modules/postcss/lib/container.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/warning.d.ts": [
-        "../node_modules/postcss/lib/css-syntax-error.d.ts",
-        "../node_modules/postcss/lib/node.d.ts",
+      "../../node_modules/postcss/lib/warning.d.ts": [
+        "../../node_modules/postcss/lib/css-syntax-error.d.ts",
+        "../../node_modules/postcss/lib/node.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/source-map-js/source-map.d.ts": [
-        "../node_modules/source-map-js/source-map.d.ts",
+      "../../node_modules/source-map-js/source-map.d.ts": [
+        "../../node_modules/source-map-js/source-map.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/stacktrace-js/stacktrace-js.d.ts": [
+      "../../node_modules/stacktrace-js/stacktrace-js.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/tinybench/dist/index.d.ts": [
+      "../../node_modules/tinyspy/dist/index.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/tinyspy/dist/index.d.ts": [
+      "../../node_modules/vitest/dist/global-732f9b14.d.ts": [
+        "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts",
+        "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vitest/dist/index-40e0cb97.d.ts": [
+        "../../node_modules/tinyspy/dist/index.d.ts",
+        "../../node_modules/vitest/dist/global-732f9b14.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/vite/dist/node/index.d.ts": [
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/vite/node_modules/esbuild/lib/main.d.ts",
-        "../node_modules/vite/node_modules/rollup/dist/rollup.d.ts",
+      "../../node_modules/vitest/dist/index.d.ts": [
+        "../../node_modules/@types/chai/index.d.ts",
+        "../../node_modules/tinyspy/dist/index.d.ts",
+        "../../node_modules/vitest/dist/global-732f9b14.d.ts",
+        "../../node_modules/vitest/dist/index-40e0cb97.d.ts",
+        "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts",
+        "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vitest/globals.d.ts": [
+        "../../node_modules/vitest/dist/index.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vitest/node_modules/esbuild/lib/main.d.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vitest/node_modules/rollup/dist/rollup.d.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts": [
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/vitest/node_modules/esbuild/lib/main.d.ts",
+        "../../node_modules/vitest/node_modules/rollup/dist/rollup.d.ts",
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/http.d.ts",
@@ -3871,289 +3922,238 @@
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/vite/node_modules/esbuild/lib/main.d.ts": [
+      "../../rrweb/packages/rrdom/es/diff.d.ts": [
+        "../../rrweb/packages/rrdom/es/document.d.ts",
+        "../../rrweb/packages/rrdom/es/index.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/vite/node_modules/rollup/dist/rollup.d.ts": [
+      "../../rrweb/packages/rrdom/es/document.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/vitest/dist/global-732f9b14.d.ts": [
-        "../node_modules/tinybench/dist/index.d.ts",
-        "../node_modules/vite/dist/node/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./node_modules/@types/node/worker_threads.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../node_modules/vitest/dist/index-40e0cb97.d.ts": [
-        "../node_modules/tinyspy/dist/index.d.ts",
-        "../node_modules/vitest/dist/global-732f9b14.d.ts",
+      "../../rrweb/packages/rrdom/es/index.d.ts": [
+        "../../rrweb/packages/rrdom/es/diff.d.ts",
+        "../../rrweb/packages/rrdom/es/document.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/vitest/dist/index.d.ts": [
-        "../node_modules/@types/chai/index.d.ts",
-        "../node_modules/tinybench/dist/index.d.ts",
-        "../node_modules/tinyspy/dist/index.d.ts",
-        "../node_modules/vite/dist/node/index.d.ts",
-        "../node_modules/vitest/dist/global-732f9b14.d.ts",
-        "../node_modules/vitest/dist/index-40e0cb97.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./node_modules/@types/node/worker_threads.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../node_modules/vitest/globals.d.ts": [
-        "../node_modules/vitest/dist/index.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/rebuild.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/snapshot.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/utils.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrdom/es/diff.d.ts": [
-        "../rrweb/packages/rrdom/es/document.d.ts",
-        "../rrweb/packages/rrdom/es/index.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/rebuild.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/utils.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrdom/es/document.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/snapshot.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/utils.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrdom/es/index.d.ts": [
-        "../rrweb/packages/rrdom/es/diff.d.ts",
-        "../rrweb/packages/rrdom/es/document.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/types.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb-snapshot/typings/index.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/rebuild.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/snapshot.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/utils.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/utils.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb-snapshot/typings/rebuild.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/utils.d.ts",
+      "../../rrweb/packages/rrweb/typings/entries/all.d.ts": [
+        "../../rrweb/packages/rrweb/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/packer/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/plugins/console/replay/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/plugins/sequential-id/replay/index.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb-snapshot/typings/snapshot.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/utils.d.ts",
+      "../../rrweb/packages/rrweb/typings/index.d.ts": [
+        "../../rrweb/packages/rrweb/typings/record/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/replay/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
+        "../../rrweb/packages/rrweb/typings/utils.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb-snapshot/typings/types.d.ts": [
+      "../../rrweb/packages/rrweb/typings/packer/base.d.ts": [
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb-snapshot/typings/utils.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/packer/index.d.ts": [
+        "../../rrweb/packages/rrweb/typings/packer/pack.d.ts",
+        "../../rrweb/packages/rrweb/typings/packer/unpack.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/entries/all.d.ts": [
-        "../rrweb/packages/rrweb/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/packer/index.d.ts",
-        "../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts",
-        "../rrweb/packages/rrweb/typings/plugins/console/replay/index.d.ts",
-        "../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts",
-        "../rrweb/packages/rrweb/typings/plugins/sequential-id/replay/index.d.ts",
+      "../../rrweb/packages/rrweb/typings/packer/pack.d.ts": [
+        "../../rrweb/packages/rrweb/typings/packer/base.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/index.d.ts": [
-        "../rrweb/packages/rrweb/typings/record/index.d.ts",
-        "../rrweb/packages/rrweb/typings/replay/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
-        "../rrweb/packages/rrweb/typings/utils.d.ts",
+      "../../rrweb/packages/rrweb/typings/packer/unpack.d.ts": [
+        "../../rrweb/packages/rrweb/typings/packer/base.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/packer/base.d.ts": [
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts": [
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/packer/index.d.ts": [
-        "../rrweb/packages/rrweb/typings/packer/pack.d.ts",
-        "../rrweb/packages/rrweb/typings/packer/unpack.d.ts",
+      "../../rrweb/packages/rrweb/typings/plugins/console/replay/index.d.ts": [
+        "../../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/packer/pack.d.ts": [
-        "../rrweb/packages/rrweb/typings/packer/base.d.ts",
+      "../../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts": [
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/packer/unpack.d.ts": [
-        "../rrweb/packages/rrweb/typings/packer/base.d.ts",
+      "../../rrweb/packages/rrweb/typings/plugins/sequential-id/replay/index.d.ts": [
+        "../../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts": [
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/iframe-manager.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/plugins/console/replay/index.d.ts": [
-        "../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/index.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts": [
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/observers/canvas/canvas-manager.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/plugins/sequential-id/replay/index.d.ts": [
-        "../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/shadow-dom-manager.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/record/iframe-manager.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
+        "../../rrweb/packages/rrweb/typings/utils.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/record/index.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/replay/index.d.ts": [
+        "../../rrweb/packages/rrdom/es/index.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/replay/machine.d.ts",
+        "../../rrweb/packages/rrweb/typings/replay/timer.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/record/observers/canvas/canvas-manager.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/replay/machine.d.ts": [
+        "../../node_modules/@xstate/fsm/lib/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/replay/timer.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/record/shadow-dom-manager.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/replay/timer.d.ts": [
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
-        "../rrweb/packages/rrweb/typings/utils.d.ts",
+      "../../rrweb/packages/rrweb/typings/types.d.ts": [
+        "../../rrweb/packages/rrdom/es/index.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/packer/base.d.ts",
+        "../../rrweb/packages/rrweb/typings/record/iframe-manager.d.ts",
+        "../../rrweb/packages/rrweb/typings/record/observers/canvas/canvas-manager.d.ts",
+        "../../rrweb/packages/rrweb/typings/record/shadow-dom-manager.d.ts",
+        "../../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts",
+        "../../rrweb/packages/rrweb/typings/replay/index.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/replay/index.d.ts": [
-        "../rrweb/packages/rrdom/es/index.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/replay/machine.d.ts",
-        "../rrweb/packages/rrweb/typings/replay/timer.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../rrweb/packages/rrweb/typings/replay/machine.d.ts": [
-        "../node_modules/@xstate/fsm/lib/index.d.ts",
-        "../rrweb/packages/rrweb/typings/replay/timer.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../rrweb/packages/rrweb/typings/replay/timer.d.ts": [
-        "../rrweb/packages/rrweb/typings/types.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../rrweb/packages/rrweb/typings/types.d.ts": [
-        "../rrweb/packages/rrdom/es/index.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/packer/base.d.ts",
-        "../rrweb/packages/rrweb/typings/record/iframe-manager.d.ts",
-        "../rrweb/packages/rrweb/typings/record/observers/canvas/canvas-manager.d.ts",
-        "../rrweb/packages/rrweb/typings/record/shadow-dom-manager.d.ts",
-        "../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts",
-        "../rrweb/packages/rrweb/typings/replay/index.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../rrweb/packages/rrweb/typings/utils.d.ts": [
-        "../rrweb/packages/rrdom/es/index.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/utils.d.ts": [
+        "../../rrweb/packages/rrdom/es/index.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
@@ -5930,252 +5930,303 @@
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/@highlight-run/fingerprintjs/dist/fp.d.ts": [
+      "../../node_modules/@highlight-run/fingerprintjs/dist/fp.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/@types/chai/index.d.ts": [
+      "../../node_modules/@types/chai/index.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/@types/json-stringify-safe/index.d.ts": [
+      "../../node_modules/@types/json-stringify-safe/index.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/@xstate/fsm/lib/index.d.ts": [
-        "../node_modules/@xstate/fsm/lib/types.d.ts",
+      "../../node_modules/@xstate/fsm/lib/index.d.ts": [
+        "../../node_modules/@xstate/fsm/lib/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/@xstate/fsm/lib/types.d.ts": [
+      "../../node_modules/@xstate/fsm/lib/types.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/error-stack-parser/error-stack-parser.d.ts": [
+      "../../node_modules/error-stack-parser/error-stack-parser.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/at-rule.d.ts": [
-        "../node_modules/postcss/lib/container.d.ts",
+      "../../node_modules/postcss/lib/at-rule.d.ts": [
+        "../../node_modules/postcss/lib/container.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/comment.d.ts": [
-        "../node_modules/postcss/lib/container.d.ts",
-        "../node_modules/postcss/lib/node.d.ts",
+      "../../node_modules/postcss/lib/comment.d.ts": [
+        "../../node_modules/postcss/lib/container.d.ts",
+        "../../node_modules/postcss/lib/node.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/container.d.ts": [
-        "../node_modules/postcss/lib/at-rule.d.ts",
-        "../node_modules/postcss/lib/comment.d.ts",
-        "../node_modules/postcss/lib/declaration.d.ts",
-        "../node_modules/postcss/lib/node.d.ts",
-        "../node_modules/postcss/lib/rule.d.ts",
+      "../../node_modules/postcss/lib/container.d.ts": [
+        "../../node_modules/postcss/lib/at-rule.d.ts",
+        "../../node_modules/postcss/lib/comment.d.ts",
+        "../../node_modules/postcss/lib/declaration.d.ts",
+        "../../node_modules/postcss/lib/node.d.ts",
+        "../../node_modules/postcss/lib/rule.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/css-syntax-error.d.ts": [
-        "../node_modules/postcss/lib/input.d.ts",
+      "../../node_modules/postcss/lib/css-syntax-error.d.ts": [
+        "../../node_modules/postcss/lib/input.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/declaration.d.ts": [
-        "../node_modules/postcss/lib/container.d.ts",
-        "../node_modules/postcss/lib/node.d.ts",
+      "../../node_modules/postcss/lib/declaration.d.ts": [
+        "../../node_modules/postcss/lib/container.d.ts",
+        "../../node_modules/postcss/lib/node.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/document.d.ts": [
-        "../node_modules/postcss/lib/container.d.ts",
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/result.d.ts",
-        "../node_modules/postcss/lib/root.d.ts",
+      "../../node_modules/postcss/lib/document.d.ts": [
+        "../../node_modules/postcss/lib/container.d.ts",
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/result.d.ts",
+        "../../node_modules/postcss/lib/root.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/input.d.ts": [
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/previous-map.d.ts",
+      "../../node_modules/postcss/lib/input.d.ts": [
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/previous-map.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/lazy-result.d.ts": [
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/processor.d.ts",
-        "../node_modules/postcss/lib/result.d.ts",
-        "../node_modules/postcss/lib/root.d.ts",
-        "../node_modules/postcss/lib/warning.d.ts",
+      "../../node_modules/postcss/lib/lazy-result.d.ts": [
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/processor.d.ts",
+        "../../node_modules/postcss/lib/result.d.ts",
+        "../../node_modules/postcss/lib/root.d.ts",
+        "../../node_modules/postcss/lib/warning.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/list.d.ts": [
+      "../../node_modules/postcss/lib/list.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/no-work-result.d.ts": [
-        "../node_modules/postcss/lib/lazy-result.d.ts",
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/processor.d.ts",
-        "../node_modules/postcss/lib/result.d.ts",
-        "../node_modules/postcss/lib/root.d.ts",
-        "../node_modules/postcss/lib/warning.d.ts",
+      "../../node_modules/postcss/lib/no-work-result.d.ts": [
+        "../../node_modules/postcss/lib/lazy-result.d.ts",
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/processor.d.ts",
+        "../../node_modules/postcss/lib/result.d.ts",
+        "../../node_modules/postcss/lib/root.d.ts",
+        "../../node_modules/postcss/lib/warning.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/node.d.ts": [
-        "../node_modules/postcss/lib/at-rule.d.ts",
-        "../node_modules/postcss/lib/comment.d.ts",
-        "../node_modules/postcss/lib/container.d.ts",
-        "../node_modules/postcss/lib/css-syntax-error.d.ts",
-        "../node_modules/postcss/lib/declaration.d.ts",
-        "../node_modules/postcss/lib/document.d.ts",
-        "../node_modules/postcss/lib/input.d.ts",
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/result.d.ts",
-        "../node_modules/postcss/lib/root.d.ts",
-        "../node_modules/postcss/lib/rule.d.ts",
-        "../node_modules/postcss/lib/warning.d.ts",
+      "../../node_modules/postcss/lib/node.d.ts": [
+        "../../node_modules/postcss/lib/at-rule.d.ts",
+        "../../node_modules/postcss/lib/comment.d.ts",
+        "../../node_modules/postcss/lib/container.d.ts",
+        "../../node_modules/postcss/lib/css-syntax-error.d.ts",
+        "../../node_modules/postcss/lib/declaration.d.ts",
+        "../../node_modules/postcss/lib/document.d.ts",
+        "../../node_modules/postcss/lib/input.d.ts",
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/result.d.ts",
+        "../../node_modules/postcss/lib/root.d.ts",
+        "../../node_modules/postcss/lib/rule.d.ts",
+        "../../node_modules/postcss/lib/warning.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/postcss.d.ts": [
-        "../node_modules/postcss/lib/at-rule.d.ts",
-        "../node_modules/postcss/lib/comment.d.ts",
-        "../node_modules/postcss/lib/container.d.ts",
-        "../node_modules/postcss/lib/css-syntax-error.d.ts",
-        "../node_modules/postcss/lib/declaration.d.ts",
-        "../node_modules/postcss/lib/document.d.ts",
-        "../node_modules/postcss/lib/input.d.ts",
-        "../node_modules/postcss/lib/lazy-result.d.ts",
-        "../node_modules/postcss/lib/list.d.ts",
-        "../node_modules/postcss/lib/node.d.ts",
-        "../node_modules/postcss/lib/processor.d.ts",
-        "../node_modules/postcss/lib/result.d.ts",
-        "../node_modules/postcss/lib/root.d.ts",
-        "../node_modules/postcss/lib/rule.d.ts",
-        "../node_modules/postcss/lib/warning.d.ts",
-        "../node_modules/source-map-js/source-map.d.ts",
+      "../../node_modules/postcss/lib/postcss.d.ts": [
+        "../../node_modules/postcss/lib/at-rule.d.ts",
+        "../../node_modules/postcss/lib/comment.d.ts",
+        "../../node_modules/postcss/lib/container.d.ts",
+        "../../node_modules/postcss/lib/css-syntax-error.d.ts",
+        "../../node_modules/postcss/lib/declaration.d.ts",
+        "../../node_modules/postcss/lib/document.d.ts",
+        "../../node_modules/postcss/lib/input.d.ts",
+        "../../node_modules/postcss/lib/lazy-result.d.ts",
+        "../../node_modules/postcss/lib/list.d.ts",
+        "../../node_modules/postcss/lib/node.d.ts",
+        "../../node_modules/postcss/lib/processor.d.ts",
+        "../../node_modules/postcss/lib/result.d.ts",
+        "../../node_modules/postcss/lib/root.d.ts",
+        "../../node_modules/postcss/lib/rule.d.ts",
+        "../../node_modules/postcss/lib/warning.d.ts",
+        "../../node_modules/source-map-js/source-map.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/previous-map.d.ts": [
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/source-map-js/source-map.d.ts",
+      "../../node_modules/postcss/lib/previous-map.d.ts": [
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/source-map-js/source-map.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/processor.d.ts": [
-        "../node_modules/postcss/lib/lazy-result.d.ts",
-        "../node_modules/postcss/lib/no-work-result.d.ts",
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/result.d.ts",
-        "../node_modules/postcss/lib/root.d.ts",
+      "../../node_modules/postcss/lib/processor.d.ts": [
+        "../../node_modules/postcss/lib/lazy-result.d.ts",
+        "../../node_modules/postcss/lib/no-work-result.d.ts",
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/result.d.ts",
+        "../../node_modules/postcss/lib/root.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/result.d.ts": [
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/processor.d.ts",
+      "../../node_modules/postcss/lib/result.d.ts": [
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/processor.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/root.d.ts": [
-        "../node_modules/postcss/lib/container.d.ts",
-        "../node_modules/postcss/lib/document.d.ts",
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/postcss/lib/result.d.ts",
+      "../../node_modules/postcss/lib/root.d.ts": [
+        "../../node_modules/postcss/lib/container.d.ts",
+        "../../node_modules/postcss/lib/document.d.ts",
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/postcss/lib/result.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/rule.d.ts": [
-        "../node_modules/postcss/lib/container.d.ts",
+      "../../node_modules/postcss/lib/rule.d.ts": [
+        "../../node_modules/postcss/lib/container.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/postcss/lib/warning.d.ts": [
-        "../node_modules/postcss/lib/css-syntax-error.d.ts",
-        "../node_modules/postcss/lib/node.d.ts",
+      "../../node_modules/postcss/lib/warning.d.ts": [
+        "../../node_modules/postcss/lib/css-syntax-error.d.ts",
+        "../../node_modules/postcss/lib/node.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/source-map-js/source-map.d.ts": [
-        "../node_modules/source-map-js/source-map.d.ts",
+      "../../node_modules/source-map-js/source-map.d.ts": [
+        "../../node_modules/source-map-js/source-map.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/stacktrace-js/stacktrace-js.d.ts": [
+      "../../node_modules/stacktrace-js/stacktrace-js.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/tinybench/dist/index.d.ts": [
+      "../../node_modules/tinyspy/dist/index.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/tinyspy/dist/index.d.ts": [
+      "../../node_modules/vitest/dist/global-732f9b14.d.ts": [
+        "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts",
+        "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vitest/dist/index-40e0cb97.d.ts": [
+        "../../node_modules/tinyspy/dist/index.d.ts",
+        "../../node_modules/vitest/dist/global-732f9b14.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/vite/dist/node/index.d.ts": [
-        "../node_modules/postcss/lib/postcss.d.ts",
-        "../node_modules/vite/node_modules/esbuild/lib/main.d.ts",
-        "../node_modules/vite/node_modules/rollup/dist/rollup.d.ts",
+      "../../node_modules/vitest/dist/index.d.ts": [
+        "../../node_modules/@types/chai/index.d.ts",
+        "../../node_modules/tinyspy/dist/index.d.ts",
+        "../../node_modules/vitest/dist/global-732f9b14.d.ts",
+        "../../node_modules/vitest/dist/index-40e0cb97.d.ts",
+        "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts",
+        "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vitest/globals.d.ts": [
+        "../../node_modules/vitest/dist/index.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vitest/node_modules/esbuild/lib/main.d.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vitest/node_modules/rollup/dist/rollup.d.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts": [
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/timers/promises.d.ts",
+        "./src/constants.d.ts",
+        "./src/types/constants.d.ts"
+      ],
+      "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts": [
+        "../../node_modules/postcss/lib/postcss.d.ts",
+        "../../node_modules/vitest/node_modules/esbuild/lib/main.d.ts",
+        "../../node_modules/vitest/node_modules/rollup/dist/rollup.d.ts",
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/http.d.ts",
@@ -6191,289 +6242,238 @@
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/vite/node_modules/esbuild/lib/main.d.ts": [
+      "../../rrweb/packages/rrdom/es/diff.d.ts": [
+        "../../rrweb/packages/rrdom/es/document.d.ts",
+        "../../rrweb/packages/rrdom/es/index.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/vite/node_modules/rollup/dist/rollup.d.ts": [
+      "../../rrweb/packages/rrdom/es/document.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/vitest/dist/global-732f9b14.d.ts": [
-        "../node_modules/tinybench/dist/index.d.ts",
-        "../node_modules/vite/dist/node/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./node_modules/@types/node/worker_threads.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../node_modules/vitest/dist/index-40e0cb97.d.ts": [
-        "../node_modules/tinyspy/dist/index.d.ts",
-        "../node_modules/vitest/dist/global-732f9b14.d.ts",
+      "../../rrweb/packages/rrdom/es/index.d.ts": [
+        "../../rrweb/packages/rrdom/es/diff.d.ts",
+        "../../rrweb/packages/rrdom/es/document.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../node_modules/vitest/dist/index.d.ts": [
-        "../node_modules/@types/chai/index.d.ts",
-        "../node_modules/tinybench/dist/index.d.ts",
-        "../node_modules/tinyspy/dist/index.d.ts",
-        "../node_modules/vite/dist/node/index.d.ts",
-        "../node_modules/vitest/dist/global-732f9b14.d.ts",
-        "../node_modules/vitest/dist/index-40e0cb97.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./node_modules/@types/node/worker_threads.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../node_modules/vitest/globals.d.ts": [
-        "../node_modules/vitest/dist/index.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/rebuild.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/snapshot.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/utils.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrdom/es/diff.d.ts": [
-        "../rrweb/packages/rrdom/es/document.d.ts",
-        "../rrweb/packages/rrdom/es/index.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/rebuild.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/utils.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrdom/es/document.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/snapshot.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/utils.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrdom/es/index.d.ts": [
-        "../rrweb/packages/rrdom/es/diff.d.ts",
-        "../rrweb/packages/rrdom/es/document.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/types.d.ts": [
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb-snapshot/typings/index.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/rebuild.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/snapshot.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/utils.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/utils.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb-snapshot/typings/rebuild.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/utils.d.ts",
+      "../../rrweb/packages/rrweb/typings/entries/all.d.ts": [
+        "../../rrweb/packages/rrweb/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/packer/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/plugins/console/replay/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/plugins/sequential-id/replay/index.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb-snapshot/typings/snapshot.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/utils.d.ts",
+      "../../rrweb/packages/rrweb/typings/index.d.ts": [
+        "../../rrweb/packages/rrweb/typings/record/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/replay/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
+        "../../rrweb/packages/rrweb/typings/utils.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb-snapshot/typings/types.d.ts": [
+      "../../rrweb/packages/rrweb/typings/packer/base.d.ts": [
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb-snapshot/typings/utils.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/packer/index.d.ts": [
+        "../../rrweb/packages/rrweb/typings/packer/pack.d.ts",
+        "../../rrweb/packages/rrweb/typings/packer/unpack.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/entries/all.d.ts": [
-        "../rrweb/packages/rrweb/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/packer/index.d.ts",
-        "../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts",
-        "../rrweb/packages/rrweb/typings/plugins/console/replay/index.d.ts",
-        "../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts",
-        "../rrweb/packages/rrweb/typings/plugins/sequential-id/replay/index.d.ts",
+      "../../rrweb/packages/rrweb/typings/packer/pack.d.ts": [
+        "../../rrweb/packages/rrweb/typings/packer/base.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/index.d.ts": [
-        "../rrweb/packages/rrweb/typings/record/index.d.ts",
-        "../rrweb/packages/rrweb/typings/replay/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
-        "../rrweb/packages/rrweb/typings/utils.d.ts",
+      "../../rrweb/packages/rrweb/typings/packer/unpack.d.ts": [
+        "../../rrweb/packages/rrweb/typings/packer/base.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/packer/base.d.ts": [
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts": [
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/packer/index.d.ts": [
-        "../rrweb/packages/rrweb/typings/packer/pack.d.ts",
-        "../rrweb/packages/rrweb/typings/packer/unpack.d.ts",
+      "../../rrweb/packages/rrweb/typings/plugins/console/replay/index.d.ts": [
+        "../../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/packer/pack.d.ts": [
-        "../rrweb/packages/rrweb/typings/packer/base.d.ts",
+      "../../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts": [
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/packer/unpack.d.ts": [
-        "../rrweb/packages/rrweb/typings/packer/base.d.ts",
+      "../../rrweb/packages/rrweb/typings/plugins/sequential-id/replay/index.d.ts": [
+        "../../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts": [
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/iframe-manager.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/plugins/console/replay/index.d.ts": [
-        "../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/index.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts": [
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/observers/canvas/canvas-manager.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/plugins/sequential-id/replay/index.d.ts": [
-        "../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/shadow-dom-manager.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/record/iframe-manager.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts": [
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
+        "../../rrweb/packages/rrweb/typings/utils.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/record/index.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/replay/index.d.ts": [
+        "../../rrweb/packages/rrdom/es/index.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/replay/machine.d.ts",
+        "../../rrweb/packages/rrweb/typings/replay/timer.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/record/observers/canvas/canvas-manager.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/replay/machine.d.ts": [
+        "../../node_modules/@xstate/fsm/lib/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/replay/timer.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/record/shadow-dom-manager.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/replay/timer.d.ts": [
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts": [
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
-        "../rrweb/packages/rrweb/typings/utils.d.ts",
+      "../../rrweb/packages/rrweb/typings/types.d.ts": [
+        "../../rrweb/packages/rrdom/es/index.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/packer/base.d.ts",
+        "../../rrweb/packages/rrweb/typings/record/iframe-manager.d.ts",
+        "../../rrweb/packages/rrweb/typings/record/observers/canvas/canvas-manager.d.ts",
+        "../../rrweb/packages/rrweb/typings/record/shadow-dom-manager.d.ts",
+        "../../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts",
+        "../../rrweb/packages/rrweb/typings/replay/index.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
         "./src/types/constants.d.ts"
       ],
-      "../rrweb/packages/rrweb/typings/replay/index.d.ts": [
-        "../rrweb/packages/rrdom/es/index.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/replay/machine.d.ts",
-        "../rrweb/packages/rrweb/typings/replay/timer.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../rrweb/packages/rrweb/typings/replay/machine.d.ts": [
-        "../node_modules/@xstate/fsm/lib/index.d.ts",
-        "../rrweb/packages/rrweb/typings/replay/timer.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../rrweb/packages/rrweb/typings/replay/timer.d.ts": [
-        "../rrweb/packages/rrweb/typings/types.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../rrweb/packages/rrweb/typings/types.d.ts": [
-        "../rrweb/packages/rrdom/es/index.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/packer/base.d.ts",
-        "../rrweb/packages/rrweb/typings/record/iframe-manager.d.ts",
-        "../rrweb/packages/rrweb/typings/record/observers/canvas/canvas-manager.d.ts",
-        "../rrweb/packages/rrweb/typings/record/shadow-dom-manager.d.ts",
-        "../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts",
-        "../rrweb/packages/rrweb/typings/replay/index.d.ts",
-        "./node_modules/@types/node/timers.d.ts",
-        "./node_modules/@types/node/timers/promises.d.ts",
-        "./src/constants.d.ts",
-        "./src/types/constants.d.ts"
-      ],
-      "../rrweb/packages/rrweb/typings/utils.d.ts": [
-        "../rrweb/packages/rrdom/es/index.d.ts",
-        "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-        "../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/utils.d.ts": [
+        "../../rrweb/packages/rrdom/es/index.d.ts",
+        "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+        "../../rrweb/packages/rrweb/typings/types.d.ts",
         "./node_modules/@types/node/timers.d.ts",
         "./node_modules/@types/node/timers/promises.d.ts",
         "./src/constants.d.ts",
@@ -6725,69 +6725,69 @@
       "./src/workers/highlight-client-worker.ts",
       "./src/workers/types.ts",
       "./src/workers/workers.d.ts",
-      "../node_modules/@highlight-run/fingerprintjs/dist/fp.d.ts",
-      "../node_modules/@types/chai/index.d.ts",
-      "../node_modules/@types/json-stringify-safe/index.d.ts",
-      "../node_modules/@xstate/fsm/lib/index.d.ts",
-      "../node_modules/@xstate/fsm/lib/types.d.ts",
-      "../node_modules/error-stack-parser/error-stack-parser.d.ts",
-      "../node_modules/postcss/lib/at-rule.d.ts",
-      "../node_modules/postcss/lib/comment.d.ts",
-      "../node_modules/postcss/lib/container.d.ts",
-      "../node_modules/postcss/lib/css-syntax-error.d.ts",
-      "../node_modules/postcss/lib/declaration.d.ts",
-      "../node_modules/postcss/lib/document.d.ts",
-      "../node_modules/postcss/lib/input.d.ts",
-      "../node_modules/postcss/lib/lazy-result.d.ts",
-      "../node_modules/postcss/lib/list.d.ts",
-      "../node_modules/postcss/lib/no-work-result.d.ts",
-      "../node_modules/postcss/lib/node.d.ts",
-      "../node_modules/postcss/lib/postcss.d.ts",
-      "../node_modules/postcss/lib/previous-map.d.ts",
-      "../node_modules/postcss/lib/processor.d.ts",
-      "../node_modules/postcss/lib/result.d.ts",
-      "../node_modules/postcss/lib/root.d.ts",
-      "../node_modules/postcss/lib/rule.d.ts",
-      "../node_modules/postcss/lib/warning.d.ts",
-      "../node_modules/source-map-js/source-map.d.ts",
-      "../node_modules/stacktrace-js/stacktrace-js.d.ts",
-      "../node_modules/tinybench/dist/index.d.ts",
-      "../node_modules/tinyspy/dist/index.d.ts",
-      "../node_modules/vite/dist/node/index.d.ts",
-      "../node_modules/vite/node_modules/esbuild/lib/main.d.ts",
-      "../node_modules/vite/node_modules/rollup/dist/rollup.d.ts",
-      "../node_modules/vitest/dist/global-732f9b14.d.ts",
-      "../node_modules/vitest/dist/index-40e0cb97.d.ts",
-      "../node_modules/vitest/dist/index.d.ts",
-      "../node_modules/vitest/globals.d.ts",
-      "../rrweb/packages/rrdom/es/diff.d.ts",
-      "../rrweb/packages/rrdom/es/document.d.ts",
-      "../rrweb/packages/rrdom/es/index.d.ts",
-      "../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
-      "../rrweb/packages/rrweb-snapshot/typings/rebuild.d.ts",
-      "../rrweb/packages/rrweb-snapshot/typings/snapshot.d.ts",
-      "../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
-      "../rrweb/packages/rrweb-snapshot/typings/utils.d.ts",
-      "../rrweb/packages/rrweb/typings/entries/all.d.ts",
-      "../rrweb/packages/rrweb/typings/index.d.ts",
-      "../rrweb/packages/rrweb/typings/packer/base.d.ts",
-      "../rrweb/packages/rrweb/typings/packer/index.d.ts",
-      "../rrweb/packages/rrweb/typings/packer/pack.d.ts",
-      "../rrweb/packages/rrweb/typings/packer/unpack.d.ts",
-      "../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts",
-      "../rrweb/packages/rrweb/typings/plugins/console/replay/index.d.ts",
-      "../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts",
-      "../rrweb/packages/rrweb/typings/plugins/sequential-id/replay/index.d.ts",
-      "../rrweb/packages/rrweb/typings/record/iframe-manager.d.ts",
-      "../rrweb/packages/rrweb/typings/record/index.d.ts",
-      "../rrweb/packages/rrweb/typings/record/observers/canvas/canvas-manager.d.ts",
-      "../rrweb/packages/rrweb/typings/record/shadow-dom-manager.d.ts",
-      "../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts",
-      "../rrweb/packages/rrweb/typings/replay/index.d.ts",
-      "../rrweb/packages/rrweb/typings/replay/machine.d.ts",
-      "../rrweb/packages/rrweb/typings/replay/timer.d.ts",
-      "../rrweb/packages/rrweb/typings/types.d.ts",
-      "../rrweb/packages/rrweb/typings/utils.d.ts"
+      "../../node_modules/@highlight-run/fingerprintjs/dist/fp.d.ts",
+      "../../node_modules/@types/chai/index.d.ts",
+      "../../node_modules/@types/json-stringify-safe/index.d.ts",
+      "../../node_modules/@xstate/fsm/lib/index.d.ts",
+      "../../node_modules/@xstate/fsm/lib/types.d.ts",
+      "../../node_modules/error-stack-parser/error-stack-parser.d.ts",
+      "../../node_modules/postcss/lib/at-rule.d.ts",
+      "../../node_modules/postcss/lib/comment.d.ts",
+      "../../node_modules/postcss/lib/container.d.ts",
+      "../../node_modules/postcss/lib/css-syntax-error.d.ts",
+      "../../node_modules/postcss/lib/declaration.d.ts",
+      "../../node_modules/postcss/lib/document.d.ts",
+      "../../node_modules/postcss/lib/input.d.ts",
+      "../../node_modules/postcss/lib/lazy-result.d.ts",
+      "../../node_modules/postcss/lib/list.d.ts",
+      "../../node_modules/postcss/lib/no-work-result.d.ts",
+      "../../node_modules/postcss/lib/node.d.ts",
+      "../../node_modules/postcss/lib/postcss.d.ts",
+      "../../node_modules/postcss/lib/previous-map.d.ts",
+      "../../node_modules/postcss/lib/processor.d.ts",
+      "../../node_modules/postcss/lib/result.d.ts",
+      "../../node_modules/postcss/lib/root.d.ts",
+      "../../node_modules/postcss/lib/rule.d.ts",
+      "../../node_modules/postcss/lib/warning.d.ts",
+      "../../node_modules/source-map-js/source-map.d.ts",
+      "../../node_modules/stacktrace-js/stacktrace-js.d.ts",
+      "../../node_modules/tinyspy/dist/index.d.ts",
+      "../../node_modules/vitest/dist/global-732f9b14.d.ts",
+      "../../node_modules/vitest/dist/index-40e0cb97.d.ts",
+      "../../node_modules/vitest/dist/index.d.ts",
+      "../../node_modules/vitest/globals.d.ts",
+      "../../node_modules/vitest/node_modules/esbuild/lib/main.d.ts",
+      "../../node_modules/vitest/node_modules/rollup/dist/rollup.d.ts",
+      "../../node_modules/vitest/node_modules/tinybench/dist/index.d.ts",
+      "../../node_modules/vitest/node_modules/vite/dist/node/index.d.ts",
+      "../../rrweb/packages/rrdom/es/diff.d.ts",
+      "../../rrweb/packages/rrdom/es/document.d.ts",
+      "../../rrweb/packages/rrdom/es/index.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/index.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/rebuild.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/snapshot.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/types.d.ts",
+      "../../rrweb/packages/rrweb-snapshot/typings/utils.d.ts",
+      "../../rrweb/packages/rrweb/typings/entries/all.d.ts",
+      "../../rrweb/packages/rrweb/typings/index.d.ts",
+      "../../rrweb/packages/rrweb/typings/packer/base.d.ts",
+      "../../rrweb/packages/rrweb/typings/packer/index.d.ts",
+      "../../rrweb/packages/rrweb/typings/packer/pack.d.ts",
+      "../../rrweb/packages/rrweb/typings/packer/unpack.d.ts",
+      "../../rrweb/packages/rrweb/typings/plugins/console/record/index.d.ts",
+      "../../rrweb/packages/rrweb/typings/plugins/console/replay/index.d.ts",
+      "../../rrweb/packages/rrweb/typings/plugins/sequential-id/record/index.d.ts",
+      "../../rrweb/packages/rrweb/typings/plugins/sequential-id/replay/index.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/iframe-manager.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/index.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/observers/canvas/canvas-manager.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/shadow-dom-manager.d.ts",
+      "../../rrweb/packages/rrweb/typings/record/stylesheet-manager.d.ts",
+      "../../rrweb/packages/rrweb/typings/replay/index.d.ts",
+      "../../rrweb/packages/rrweb/typings/replay/machine.d.ts",
+      "../../rrweb/packages/rrweb/typings/replay/timer.d.ts",
+      "../../rrweb/packages/rrweb/typings/types.d.ts",
+      "../../rrweb/packages/rrweb/typings/utils.d.ts"
     ]
   },
   "version": "4.1.3"
