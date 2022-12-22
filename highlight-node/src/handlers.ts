@@ -65,7 +65,7 @@ export async function trpcOnError({ error, req }: {error: Error, req: {headers?:
 		processErrorImpl(options, req, error)
 		await H.flush()
 	} catch (e) {
-		console.log('highlight-node trpcOnError error:', e)
+		console.warn('highlight-node trpcOnError error:', e)
 	}
 }
 
@@ -84,7 +84,7 @@ export function firebaseHttpFunctionHandler(origHandler: FirebaseHttpFunctionHan
 					await H.flush()
 				}
 			} catch (e) {
-				console.log('highlight-node firebaseHttpFunctionHandler error:', e)
+				console.warn('highlight-node firebaseHttpFunctionHandler error:', e)
 			}
 			
 			// Rethrow the error here to allow any other error handling to happen
@@ -108,7 +108,7 @@ export function firebaseCallableFunctionHandler(origHandler: FirebaseCallableFun
 					await H.flush()
 				}
 			} catch (e) {
-				console.log('highlight-node firebaseCallableFunctionHandler error:', e)
+				console.warn('highlight-node firebaseCallableFunctionHandler error:', e)
 			}
 
 			// Rethrow the error here to allow any other error handling to happen

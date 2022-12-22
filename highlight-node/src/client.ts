@@ -135,7 +135,7 @@ export class Highlight {
 					this.lastBackendSetupEvent = Date.now()
 				})
 				.catch((e) => {
-					console.log('highlight-node error: ', e)
+					console.warn('highlight-node error: ', e)
 				})
 		}
 	}
@@ -151,7 +151,7 @@ export class Highlight {
 		try {
 			await this._graphqlSdk.PushBackendPayload(variables)
 		} catch (e) {
-			console.log('highlight-node pushErrors error: ', e)
+			console.warn('highlight-node pushErrors error: ', e)
 		}
 	}
 
@@ -166,7 +166,7 @@ export class Highlight {
 		try {
 			await this._graphqlSdk.PushMetrics(variables)
 		} catch (e) {
-			console.log('highlight-node pushMetrics error: ', e)
+			console.warn('highlight-node pushMetrics error: ', e)
 		}
 	}
 
