@@ -72,6 +72,9 @@ export async function trpcOnError(
 	options: NodeOptions = {},
 ): Promise<void> {
 	try {
+		if (!H.isInitialized()) {
+			H.init(options)
+		}
 		processErrorImpl(options, req, error)
 		await H.flush()
 	} catch (e) {
@@ -96,6 +99,9 @@ export function firebaseHttpFunctionHandler(
 		} catch (e) {
 			try {
 				if (e instanceof Error) {
+					if (!H.isInitialized()) {
+						H.init(options)
+					}
 					processErrorImpl(options, req, e)
 					await H.flush()
 				}
@@ -129,6 +135,9 @@ export function firebaseCallableFunctionHandler(
 		} catch (e) {
 			try {
 				if (e instanceof Error) {
+					if (!H.isInitialized()) {
+						H.init(options)
+					}
 					processErrorImpl(options, context.rawRequest, e)
 					await H.flush()
 				}
