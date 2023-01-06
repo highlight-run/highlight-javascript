@@ -3,10 +3,7 @@ import {
 	getRecordSequentialIdPlugin,
 	record,
 } from '@highlight-run/rrweb'
-import {
-	eventWithTime,
-	listenerHandler,
-} from '@highlight-run/rrweb/typings/types'
+import { eventWithTime, listenerHandler } from '@highlight-run/rrweb-types'
 import { FirstLoadListeners } from './listeners/first-load-listeners'
 import {
 	AmplitudeIntegrationOptions,
@@ -105,6 +102,7 @@ export type HighlightClassOptions = {
 	samplingStrategy?: SamplingStrategy
 	inlineImages?: boolean
 	inlineStylesheet?: boolean
+	isCrossOriginIframe?: boolean
 	firstloadVersion?: string
 	environment?: 'development' | 'production' | 'staging' | string
 	appVersion?: string
@@ -581,49 +579,53 @@ export class Highlight {
 				destinationDomains =
 					this.options.networkRecording.destinationDomains
 			}
-			const gr = await this.graphqlSDK.initializeSession({
-				organization_verbose_id: this.organizationID,
-				enable_strict_privacy: this.enableStrictPrivacy,
-				enable_recording_network_contents: enableNetworkRecording,
-				clientVersion: this.firstloadVersion,
-				firstloadVersion: this.firstloadVersion,
-				clientConfig: JSON.stringify(this._optionsInternal),
-				environment: this.environment,
-				id: fingerprint.visitorId,
-				appVersion: this.appVersion,
-				session_secure_id: this.sessionData.sessionSecureID,
-				client_id: clientID,
-				network_recording_domains: destinationDomains,
-			})
-			if (
-				gr.initializeSession.secure_id !==
-				this.sessionData.sessionSecureID
-			) {
-				this.logger.log(
-					`Unexpected secure id returned by initializeSession: ${gr.initializeSession.secure_id}`,
+			if (!this.options.isCrossOriginIframe) {
+				const gr = await this.graphqlSDK.initializeSession({
+					organization_verbose_id: this.organizationID,
+					enable_strict_privacy: this.enableStrictPrivacy,
+					enable_recording_network_contents: enableNetworkRecording,
+					clientVersion: this.firstloadVersion,
+					firstloadVersion: this.firstloadVersion,
+					clientConfig: JSON.stringify(this._optionsInternal),
+					environment: this.environment,
+					id: fingerprint.visitorId,
+					appVersion: this.appVersion,
+					session_secure_id: this.sessionData.sessionSecureID,
+					client_id: clientID,
+					network_recording_domains: destinationDomains,
+				})
+				if (
+					gr.initializeSession.secure_id !==
+					this.sessionData.sessionSecureID
+				) {
+					this.logger.log(
+						`Unexpected secure id returned by initializeSession: ${gr.initializeSession.secure_id}`,
+					)
+				}
+				this.sessionData.sessionSecureID =
+					gr.initializeSession.secure_id
+				this.sessionData.projectID = parseInt(
+					gr?.initializeSession?.project_id || '0',
 				)
-			}
-			this.sessionData.sessionSecureID = gr.initializeSession.secure_id
-			this.sessionData.projectID = parseInt(
-				gr?.initializeSession?.project_id || '0',
-			)
-			if (this.sessionData.userIdentifier) {
-				this.identify(
-					this.sessionData.userIdentifier,
-					this.sessionData.userObject,
-				)
+				if (this.sessionData.userIdentifier) {
+					this.identify(
+						this.sessionData.userIdentifier,
+						this.sessionData.userObject,
+					)
+				}
+
+				if (
+					!this.sessionData.projectID ||
+					!this.sessionData.sessionSecureID
+				) {
+					console.error(
+						'Failed to initialize Highlight; an error occurred on our end.',
+						this.sessionData,
+					)
+					return
+				}
 			}
 
-			if (
-				!this.sessionData.projectID ||
-				!this.sessionData.sessionSecureID
-			) {
-				console.error(
-					'Failed to initialize Highlight; an error occurred on our end.',
-					this.sessionData,
-				)
-				return
-			}
 			this.logger.log(
 				`Loaded Highlight
 Remote: ${this._backendUrl}
@@ -669,9 +671,11 @@ SessionSecureID: ${this.sessionData.sessionSecureID}`,
 				clearTimeout(this.pushPayloadTimerId)
 				this.pushPayloadTimerId = undefined
 			}
-			this.pushPayloadTimerId = setTimeout(() => {
-				this._save()
-			}, FIRST_SEND_FREQUENCY)
+			if (!this.options.isCrossOriginIframe) {
+				this.pushPayloadTimerId = setTimeout(() => {
+					this._save()
+				}, FIRST_SEND_FREQUENCY)
+			}
 			const emit = (event: eventWithTime) => {
 				this.events.push(event)
 			}
@@ -684,6 +688,7 @@ SessionSecureID: ${this.sessionData.sessionSecureID}`,
 						ignoreClass: 'highlight-ignore',
 						blockClass: 'highlight-block',
 						emit,
+						recordCrossOriginIframes: true,
 						enableStrictPrivacy: this.enableStrictPrivacy,
 						maskAllInputs: this.enableStrictPrivacy,
 						recordCanvas: this.enableCanvasRecording,

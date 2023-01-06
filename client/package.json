@@ -32,6 +32,7 @@
 		"@graphql-codegen/typescript": "^2.8.1",
 		"@graphql-codegen/typescript-graphql-request": "^4.5.2",
 		"@graphql-codegen/typescript-operations": "^2.5.2",
+		"@highlight-run/rrweb-types": "workspace:*",
 		"@rollup/plugin-commonjs": "^22.0.1",
 		"@rollup/plugin-json": "^4.1.0",
 		"@rollup/plugin-node-resolve": "^13.3.0",
