@@ -139,6 +139,10 @@ export type MutationPushPayloadArgs = {
 	session_secure_id: Scalars['String']
 }
 
+export enum PublicGraphError {
+	BillingQuotaExceeded = 'BillingQuotaExceeded',
+}
+
 export type Query = {
 	__typename?: 'Query'
 	ignore?: Maybe<Scalars['Any']>
