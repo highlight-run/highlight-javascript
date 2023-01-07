@@ -1,4 +1,3 @@
-import { GraphQLError } from 'graphql'
 import { ClientError } from 'graphql-request'
 import { PublicGraphError } from '../graph/generated/schemas'
 import { logForHighlight } from './highlight-logging'
