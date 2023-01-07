@@ -200,6 +200,7 @@ export class Highlight {
 	reloaded!: boolean
 	_hasPreviouslyInitialized!: boolean
 	_payloadId!: number
+	_recordStop!: listenerHandler | undefined
 
 	static create(options: HighlightClassOptions): Highlight {
 		return new Highlight(options)
@@ -681,46 +682,40 @@ SessionSecureID: ${this.sessionData.sessionSecureID}`,
 			}
 			emit.bind(this)
 
-			// Skip if we're already recording events
-			if (this.state !== 'Recording') {
-				setTimeout(() => {
-					const recordStop = record({
-						ignoreClass: 'highlight-ignore',
-						blockClass: 'highlight-block',
-						emit,
-						recordCrossOriginIframes: true,
-						enableStrictPrivacy: this.enableStrictPrivacy,
-						maskAllInputs: this.enableStrictPrivacy,
-						recordCanvas: this.enableCanvasRecording,
-						sampling: {
-							canvas: {
-								fps: this.samplingStrategy.canvas,
-								resizeQuality:
-									this.samplingStrategy.canvasQuality,
-								resizeFactor:
-									this.samplingStrategy.canvasFactor,
-								maxSnapshotDimension:
-									this.samplingStrategy
-										.canvasMaxSnapshotDimension,
-							},
+			if (!this._recordStop) {
+				this._recordStop = record({
+					ignoreClass: 'highlight-ignore',
+					blockClass: 'highlight-block',
+					emit,
+					recordCrossOriginIframes: true,
+					enableStrictPrivacy: this.enableStrictPrivacy,
+					maskAllInputs: this.enableStrictPrivacy,
+					recordCanvas: this.enableCanvasRecording,
+					sampling: {
+						canvas: {
+							fps: this.samplingStrategy.canvas,
+							resizeQuality: this.samplingStrategy.canvasQuality,
+							resizeFactor: this.samplingStrategy.canvasFactor,
+							maxSnapshotDimension:
+								this.samplingStrategy
+									.canvasMaxSnapshotDimension,
 						},
-						keepIframeSrcFn: (_src) => {
-							return true
-						},
-						inlineImages: this.inlineImages,
-						inlineStylesheet: this.inlineStylesheet,
-						plugins: [getRecordSequentialIdPlugin()],
-					})
-					if (recordStop) {
-						this.listeners.push(recordStop)
-					}
-					const viewport = {
-						height: window.innerHeight,
-						width: window.innerWidth,
-					}
-					this.addCustomEvent('Viewport', viewport)
-					this.submitViewportMetrics(viewport)
-				}, 1)
+					},
+					keepIframeSrcFn: (_src) => {
+						return true
+					},
+					inlineImages: this.inlineImages,
+					inlineStylesheet: this.inlineStylesheet,
+					plugins: [getRecordSequentialIdPlugin()],
+				})
+				// recordStop is not part of listeners because we do not actually want to stop rrweb
+				// rrweb has some bugs that make the stop -> restart workflow broken (eg iframe listeners)
+				const viewport = {
+					height: window.innerHeight,
+					width: window.innerWidth,
+				}
+				this.addCustomEvent('Viewport', viewport)
+				this.submitViewportMetrics(viewport)
 			}
 
 			if (document.referrer) {
