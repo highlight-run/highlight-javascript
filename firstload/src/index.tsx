@@ -107,6 +107,7 @@ export const H: HighlightPublicInterface = {
 				samplingStrategy: options?.samplingStrategy,
 				inlineImages: options?.inlineImages || false,
 				inlineStylesheet: options?.inlineStylesheet || false,
+				isCrossOriginIframe: options?.isCrossOriginIframe || false,
 				firstloadVersion: packageJson['version'],
 				environment: options?.environment || 'production',
 				appVersion: options?.version,

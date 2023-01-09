@@ -3,10 +3,7 @@ import {
 	getRecordSequentialIdPlugin,
 	record,
 } from '@highlight-run/rrweb'
-import {
-	eventWithTime,
-	listenerHandler,
-} from '@highlight-run/rrweb/typings/types'
+import { eventWithTime, listenerHandler } from '@highlight-run/rrweb-types'
 import { FirstLoadListeners } from './listeners/first-load-listeners'
 import {
 	AmplitudeIntegrationOptions,
@@ -105,6 +102,7 @@ export type HighlightClassOptions = {
 	samplingStrategy?: SamplingStrategy
 	inlineImages?: boolean
 	inlineStylesheet?: boolean
+	isCrossOriginIframe?: boolean
 	firstloadVersion?: string
 	environment?: 'development' | 'production' | 'staging' | string
 	appVersion?: string
@@ -202,6 +200,7 @@ export class Highlight {
 	reloaded!: boolean
 	_hasPreviouslyInitialized!: boolean
 	_payloadId!: number
+	_recordStop!: listenerHandler | undefined
 
 	static create(options: HighlightClassOptions): Highlight {
 		return new Highlight(options)
@@ -581,49 +580,53 @@ export class Highlight {
 				destinationDomains =
 					this.options.networkRecording.destinationDomains
 			}
-			const gr = await this.graphqlSDK.initializeSession({
-				organization_verbose_id: this.organizationID,
-				enable_strict_privacy: this.enableStrictPrivacy,
-				enable_recording_network_contents: enableNetworkRecording,
-				clientVersion: this.firstloadVersion,
-				firstloadVersion: this.firstloadVersion,
-				clientConfig: JSON.stringify(this._optionsInternal),
-				environment: this.environment,
-				id: fingerprint.visitorId,
-				appVersion: this.appVersion,
-				session_secure_id: this.sessionData.sessionSecureID,
-				client_id: clientID,
-				network_recording_domains: destinationDomains,
-			})
-			if (
-				gr.initializeSession.secure_id !==
-				this.sessionData.sessionSecureID
-			) {
-				this.logger.log(
-					`Unexpected secure id returned by initializeSession: ${gr.initializeSession.secure_id}`,
+			if (!this.options.isCrossOriginIframe) {
+				const gr = await this.graphqlSDK.initializeSession({
+					organization_verbose_id: this.organizationID,
+					enable_strict_privacy: this.enableStrictPrivacy,
+					enable_recording_network_contents: enableNetworkRecording,
+					clientVersion: this.firstloadVersion,
+					firstloadVersion: this.firstloadVersion,
+					clientConfig: JSON.stringify(this._optionsInternal),
+					environment: this.environment,
+					id: fingerprint.visitorId,
+					appVersion: this.appVersion,
+					session_secure_id: this.sessionData.sessionSecureID,
+					client_id: clientID,
+					network_recording_domains: destinationDomains,
+				})
+				if (
+					gr.initializeSession.secure_id !==
+					this.sessionData.sessionSecureID
+				) {
+					this.logger.log(
+						`Unexpected secure id returned by initializeSession: ${gr.initializeSession.secure_id}`,
+					)
+				}
+				this.sessionData.sessionSecureID =
+					gr.initializeSession.secure_id
+				this.sessionData.projectID = parseInt(
+					gr?.initializeSession?.project_id || '0',
 				)
-			}
-			this.sessionData.sessionSecureID = gr.initializeSession.secure_id
-			this.sessionData.projectID = parseInt(
-				gr?.initializeSession?.project_id || '0',
-			)
-			if (this.sessionData.userIdentifier) {
-				this.identify(
-					this.sessionData.userIdentifier,
-					this.sessionData.userObject,
-				)
+				if (this.sessionData.userIdentifier) {
+					this.identify(
+						this.sessionData.userIdentifier,
+						this.sessionData.userObject,
+					)
+				}
+
+				if (
+					!this.sessionData.projectID ||
+					!this.sessionData.sessionSecureID
+				) {
+					console.error(
+						'Failed to initialize Highlight; an error occurred on our end.',
+						this.sessionData,
+					)
+					return
+				}
 			}
 
-			if (
-				!this.sessionData.projectID ||
-				!this.sessionData.sessionSecureID
-			) {
-				console.error(
-					'Failed to initialize Highlight; an error occurred on our end.',
-					this.sessionData,
-				)
-				return
-			}
 			this.logger.log(
 				`Loaded Highlight
 Remote: ${this._backendUrl}
@@ -669,53 +672,50 @@ SessionSecureID: ${this.sessionData.sessionSecureID}`,
 				clearTimeout(this.pushPayloadTimerId)
 				this.pushPayloadTimerId = undefined
 			}
-			this.pushPayloadTimerId = setTimeout(() => {
-				this._save()
-			}, FIRST_SEND_FREQUENCY)
+			if (!this.options.isCrossOriginIframe) {
+				this.pushPayloadTimerId = setTimeout(() => {
+					this._save()
+				}, FIRST_SEND_FREQUENCY)
+			}
 			const emit = (event: eventWithTime) => {
 				this.events.push(event)
 			}
 			emit.bind(this)
 
-			// Skip if we're already recording events
-			if (this.state !== 'Recording') {
-				setTimeout(() => {
-					const recordStop = record({
-						ignoreClass: 'highlight-ignore',
-						blockClass: 'highlight-block',
-						emit,
-						enableStrictPrivacy: this.enableStrictPrivacy,
-						maskAllInputs: this.enableStrictPrivacy,
-						recordCanvas: this.enableCanvasRecording,
-						sampling: {
-							canvas: {
-								fps: this.samplingStrategy.canvas,
-								resizeQuality:
-									this.samplingStrategy.canvasQuality,
-								resizeFactor:
-									this.samplingStrategy.canvasFactor,
-								maxSnapshotDimension:
-									this.samplingStrategy
-										.canvasMaxSnapshotDimension,
-							},
+			if (!this._recordStop) {
+				this._recordStop = record({
+					ignoreClass: 'highlight-ignore',
+					blockClass: 'highlight-block',
+					emit,
+					recordCrossOriginIframes: true,
+					enableStrictPrivacy: this.enableStrictPrivacy,
+					maskAllInputs: this.enableStrictPrivacy,
+					recordCanvas: this.enableCanvasRecording,
+					sampling: {
+						canvas: {
+							fps: this.samplingStrategy.canvas,
+							resizeQuality: this.samplingStrategy.canvasQuality,
+							resizeFactor: this.samplingStrategy.canvasFactor,
+							maxSnapshotDimension:
+								this.samplingStrategy
+									.canvasMaxSnapshotDimension,
 						},
-						keepIframeSrcFn: (_src) => {
-							return true
-						},
-						inlineImages: this.inlineImages,
-						inlineStylesheet: this.inlineStylesheet,
-						plugins: [getRecordSequentialIdPlugin()],
-					})
-					if (recordStop) {
-						this.listeners.push(recordStop)
-					}
-					const viewport = {
-						height: window.innerHeight,
-						width: window.innerWidth,
-					}
-					this.addCustomEvent('Viewport', viewport)
-					this.submitViewportMetrics(viewport)
-				}, 1)
+					},
+					keepIframeSrcFn: (_src) => {
+						return true
+					},
+					inlineImages: this.inlineImages,
+					inlineStylesheet: this.inlineStylesheet,
+					plugins: [getRecordSequentialIdPlugin()],
+				})
+				// recordStop is not part of listeners because we do not actually want to stop rrweb
+				// rrweb has some bugs that make the stop -> restart workflow broken (eg iframe listeners)
+				const viewport = {
+					height: window.innerHeight,
+					width: window.innerWidth,
+				}
+				this.addCustomEvent('Viewport', viewport)
+				this.submitViewportMetrics(viewport)
 			}
 
 			if (document.referrer) {
