@@ -107,8 +107,10 @@ export function ConsoleListener(
 		// replace the logger.{level}. return a restore function
 		return patch(_logger, level, (original) => {
 			return (...args: Array<any>) => {
-				// @ts-expect-error
-				original.apply(this, args)
+				if (window.location.hostname !== 'localhost') {
+					// @ts-expect-error
+					original.apply(this, args)
+				}
 				try {
 					const trace = ErrorStackParser.parse(new Error())
 					const payload = args.map((s) =>
@@ -122,7 +124,9 @@ export function ConsoleListener(
 						time: Date.now(),
 					})
 				} catch (error) {
-					original('highlight logger error:', error, ...args)
+					if (window.location.hostname !== 'localhost') {
+						original('highlight logger error:', error, ...args)
+					}
 				}
 			}
 		})
